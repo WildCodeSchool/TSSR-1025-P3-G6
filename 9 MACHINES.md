@@ -1,0 +1,60 @@
+
+
+---
+
+# PERIMETRE 1  WAN
+
+## PFSENSE
+**role PARE FEU**
+3 interfaces 
+
+```
+
+interface 1 WAN 192.168.1.250 reseau 192.168.1.0 
+			passerelle 192.168.1.1 
+interface 2 LAN  10.10.0.2     reseau 10.10.0.0/28
+interface 3 DMZ 172.16.30.1    reseau 172.16.30.0/28
+
+```
+
+## DEBIAN 13
+
+
+# PERIMETRE 2 COEUR
+
+
+## DEBIAN 13
+COEUR
+
+---
+
+
+
+# PERIMETRE 3 INFRA
+
+## SERVER 2022
+ADDS/DNS/DHCP
+
+
+## DEBIAN 13
+WSUS 
+
+
+## CORE 2022
+GLPI/MESSAGERIE
+
+
+
+## IPBX01
+FREEPBPX
+
+---
+
+
+# PERIMETRE 4  LAN
+
+## CORE 2022
+CLIWIN01
+
+## CORE 2022
+CLIWIN02
