@@ -1,3 +1,8 @@
+
+---
+
+![[Excalidraw/Drawing 2026-01-26 17.17.54.excalidraw.svg]]
+
 # PERIMETRE 0   WAN
 
 ## CONNEXION SSH
@@ -33,8 +38,8 @@ NTP : pool.ntp;org
 pfsense va chercher l'horloge sur ntp de ADDS : faire la regle  et envoyer sur deian dmz
 
 
-3 interfaces ( 2 deja )
-![[PFSENSE_config4.png]]
+3 interfaces 
+
 
  Réglages des autorisations d'entrées par services ( ssh , vpn dns, dhcp icmp,http http  smtp smtps ftp ) 
 
@@ -113,7 +118,7 @@ ATHENA (Debian Core Router/Switch)
 
 
 
-![[ATHENA CONFIG INTERFACES OK.png]]
+
 
 ---
 
