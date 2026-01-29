@@ -11,14 +11,10 @@
             "id": "015b4ba3de6e0a66",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lancement ADDS Gemini.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "lancement ADDS Gemini"
+              "title": "Nouvel onglet"
             }
           }
         ]
@@ -185,6 +181,7 @@
   },
   "active": "015b4ba3de6e0a66",
   "lastOpenFiles": [
+    "lancement ADDS Gemini.md",
     "ressources_images/PFSENSE_config4.png",
     "ressources_images/configurationreseau Host windowsavec box orangejpg.jpg",
     "ressources_images",
@@ -206,8 +203,6 @@
     "Nouveau dossier/ATHENA CONFIG INTERFACES OK.png",
     "9 MACHINES.md",
     "Drawing 2026-01-26 17.17.54.excalidraw.svg",
-    "configurationreseau Host windowsavec box orangejpg.jpg",
-    "README.md",
-    "lancement ADDS Gemini.md"
+    "README.md"
   ]
 }
