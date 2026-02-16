@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SERVICE/PARE FEU HEPHAISTOS/PFSENSE_HEPHAISTOS_recap.md",
+                "file": "SERVICE/ADDS/ARESKI ARBRE  DC ecotech.tssr/Infrastructure ADDS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PFSENSE_HEPHAISTOS_recap"
+              "title": "Infrastructure ADDS"
             }
           }
         ],
@@ -200,8 +200,13 @@
   },
   "active": "1c058e7c660b4cdf",
   "lastOpenFiles": [
-    "README.md",
+    "SERVICE/ADDS/ARESG interface graphique/recap_GPO_AdminLocal.md",
     "SERVICE/PARE FEU HEPHAISTOS/PFSENSE_HEPHAISTOS_recap.md",
+    "SERVICE/ADDS/ARESKI ARBRE  DC ecotech.tssr/Infrastructure ADDS.md",
+    "SERVICE/ADDS/recap_GPO_AdminLocal.md",
+    "SERVICE/recap_GPO_AdminLocal.md",
+    "SERVICE/PARE FEU HEPHAISTOS/recap_GPO_AdminLocal.md",
+    "README.md",
     "winanto2026.pub",
     "winanto2026",
     "Drawing 2026-01-26 17.17.54.excalidraw 1.png",
