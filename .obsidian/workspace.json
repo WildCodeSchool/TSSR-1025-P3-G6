@@ -201,8 +201,8 @@
   "active": "1c058e7c660b4cdf",
   "lastOpenFiles": [
     "SERVICE/ADDS/GPO/RESSOURCES/Gpo_admin_localaddgroup.png",
-    "SERVICE/ADDS/GPO/RESSOURCES/Gpo_admin_localaddgroup2.png",
     "SERVICE/ADDS/GPO/GPO local admin.md",
+    "SERVICE/ADDS/GPO/RESSOURCES/Gpo_admin_localaddgroup2.png",
     "SERVICE/ADDS/GPO/recap_GPO_AdminLocal.md",
     "SERVICE/ADDS/GPO/RESSOURCES/gpouserblockpanel4.png",
     "SERVICE/ADDS/GPO/RESSOURCES/liegpo a_ou_users.png",
@@ -238,7 +238,6 @@
     "Drawing 2026-01-26 17.17.54.excalidraw.png",
     "service dhcp dns.md",
     "schema_reseau_ecotech.png",
-    "ressources_images/PFSENSE_config4.png",
     "lancement ADDS Gemini.md"
   ]
 }
