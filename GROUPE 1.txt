@@ -1,0 +1,106 @@
+# 1. Objectifs
+
+Objectifs obligatoire de ce sprint : Analyse du sujet d'entreprise 
+- Création de l'arborescence Github de la documentation
+- Tous les dossiers sont présent
+- Tous les fichiers sont remplis
+
+# 2. Contexte
+
+Tout projet commence par une analyse des besoins.
+Cette analyse sert à fournir les différents éléments qui serviront tout au long du projet.
+
+
+
+# 1. Nom de domaine
+
+Nom FQDN
+
+# 2. OU
+
+- Structures
+	- Nombre de niveau
+	- Nom
+- Hiérarchie
+	- Par département
+	- Par société
+	- Par localisation
+
+# 3. Groupes de sécurité
+
+- Convention de nommage par contenu
+	- Utilisateur
+	- Ordinateur
+	- Fonctionnalité
+- Type
+	- Local
+	- Global
+
+# 4. Ordinateurs
+
+- Emplacement
+	- Critères ?
+- Convention de nommage
+	- Par caractéristique physique (portable, tour, serveur rack, VM, ...)
+	- Par type AD (client, serveur, DC)
+		- Serveur : mise en place de nom unique
+	- Convention spécifique pour les serveurs/les clients
+	- Numérotation, id, code barre, ...
+
+# 5. Utilisateurs
+
+- Emplacement
+	- Critères ?
+- Convention de nommage
+	- Prénom, nom, etc.
+	- Numérotation
+	- Gestion des homonymes
+
+# 6. GPO
+
+- Convention de nommage
+	- Cible/fonction (user, sec, config, ...)
+	- Portée (global, domain, marketing, ...)
+	- Version/date de révision
+	- id
+	- but/destination
+
+
+# SEMAINE 1
+
+
+- Fournir un plan d'adressage réseau complet cohérent :
+	- Configuration IP de LAN/VLAN
+	- Configuration IP des matériels réseaux
+- Fournir un plan schématique du futur réseau :
+	- Nom des matériels
+	- Configuration IP
+- Faire la liste des serveurs/matériels nécessaires à l'élaboration de la future infrastructure réseau
+- Mettre en place une nomenclature de nom :
+	- Serveurs
+	- Ordinateurs clients
+	- Utilisateurs
+	- Groupes
+	- ...
+- Création de VM serveur / client
+	- Configuration ?
+	- OS ?
+	- Fonction / rôle ?
+- Création d'un domaine
+	- Nom du domaine AD
+	- Configuration
+- Création des OU correspondant aux différents service de la société
+	- OU de départements
+	- OU de services
+- Création des groupes correspondant aux différents groupes d'utilisateurs de la société
+	- Groupes de départements
+	- Groupes de services
+	- Groupes fonctionnels
+	- Groupes de sécurité
+- Intégration des données dans l'AD :
+	- Utilisateurs
+	- Ordinateurs
+
+
+Projet ECOTECH SOLO
+

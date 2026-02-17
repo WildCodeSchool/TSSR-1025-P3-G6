@@ -1,0 +1,31 @@
+# Quitter PSSession
+Exit-PSSession
+
+# Créer script localement
+@"
+# Script: Configure-HomeFolder-Permissions.ps1
+`$FolderPath = "Z:\Partages\Users"
+
+`$acl = Get-Acl `$FolderPath
+`$acl.SetAccessRuleProtection(`$true, `$false)
+Set-Acl `$FolderPath `$acl
+
+`$acl = Get-Acl `$FolderPath
+`$acl.Access | ForEach-Object { `$acl.RemoveAccessRule(`$_) } | Out-Null
+
+`$rule1 = New-Object System.Security.AccessControl.FileSystemAccessRule("BUILTIN\Administrators","FullControl","ContainerInherit,ObjectInherit","None","Allow")
+`$acl.AddAccessRule(`$rule1)
+
+`$rule2 = New-Object System.Security.AccessControl.FileSystemAccessRule("NT AUTHORITY\SYSTEM","FullControl","ContainerInherit,ObjectInherit","None","Allow")
+`$acl.AddAccessRule(`$rule2)
+
+`$rule3 = New-Object System.Security.AccessControl.FileSystemAccessRule("CREATOR OWNER","FullControl","ContainerInherit,ObjectInherit","InheritOnly","Allow")
+`$acl.AddAccessRule(`$rule3)
+
+Set-Acl `$FolderPath `$acl
+Write-Host "Permissions NTFS configurées" -ForegroundColor Green
+"@ | Out-File C:\Temp\Configure-HomeFolder.ps1
+
+
+# Copier sur PROMETHEE
+Copy-Item C:\Temp\Configure-HomeFolder.ps1 -Destination \\PROMETHEE\C$\Scripts\

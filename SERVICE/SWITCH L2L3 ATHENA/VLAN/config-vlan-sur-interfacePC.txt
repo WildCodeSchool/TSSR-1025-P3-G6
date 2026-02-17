@@ -1,0 +1,23 @@
+
+fichier 01-lab-config.yaml dans /etc/netplan
+
+
+
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s3:
+      dhcp4: yes  # Garde l'accès internet NAT si c'est la carte 1
+    enp0s9:       # Ta carte connectée à HERCULE (Adapter 3)
+      dhcp4: no
+  vlans:
+    vlan40:
+      id: 40
+      link: enp0s9
+      addresses: [10.15.40.10/24]
+      routes:
+        - to: default
+          via: 10.15.40.1
+      nameservers:
+        addresses: [8.8.8.8]

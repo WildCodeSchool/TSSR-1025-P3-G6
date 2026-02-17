@@ -1,0 +1,56 @@
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_ed25519
+
+
+Host RunAntoine
+    HostName 192.168.1.38
+    Port 22
+    User run27
+    IdentityFile ~/.ssh/id_ed25519
+
+   
+Host DEBIANA
+    HostName 127.0.0.1
+    Port 34000
+    User wilder
+
+Host HELENA
+    HostName 127.0.0.1
+    Port 33000
+    User wilder
+
+Host APOLLONIA
+    HostName 127.0.0.1
+    Port 17000
+    User wilder
+
+Host SPARTAKA
+    HostName 127.0.0.1
+    Port 35000
+    User wilder
+
+Host ATHENA
+    HostName 127.0.0.1
+    Port 32000
+    User wilder
+
+Host APOLLON
+    HostName 127.0.0.1
+    Port 15000
+    User wilder
+
+
+Host ARESG
+    HostName 127.0.0.1
+    Port 16000
+    User wilder
+
+
+
+
+
+
+
+

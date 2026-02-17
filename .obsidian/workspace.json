@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SERVICE/ADDS/ARESKI ARBRE  DC ecotech.tssr/Infrastructure ADDS.md",
+                "file": "SERVICE/ADDS/GPO/GPO local admin.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Infrastructure ADDS"
+              "title": "GPO local admin"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 578.5
   },
   "right": {
     "id": "0672b2c90c28cb5a",
@@ -200,9 +200,17 @@
   },
   "active": "1c058e7c660b4cdf",
   "lastOpenFiles": [
-    "SERVICE/ADDS/ARESG interface graphique/recap_GPO_AdminLocal.md",
-    "SERVICE/PARE FEU HEPHAISTOS/PFSENSE_HEPHAISTOS_recap.md",
+    "SERVICE/ADDS/GPO/RESSOURCES/Gpo_admin_localaddgroup.png",
+    "SERVICE/ADDS/GPO/RESSOURCES/Gpo_admin_localaddgroup2.png",
+    "SERVICE/ADDS/GPO/GPO local admin.md",
+    "SERVICE/ADDS/GPO/recap_GPO_AdminLocal.md",
+    "SERVICE/ADDS/GPO/RESSOURCES/gpouserblockpanel4.png",
+    "SERVICE/ADDS/GPO/RESSOURCES/liegpo a_ou_users.png",
+    "SERVICE/ADDS/GPO/RESSOURCES/gpouserblockpanel5.png",
+    "SERVICE/ADDS/GPO/RESSOURCES/creation_GPO.png",
+    "SERVICE/ADDS/GPO/RESSOURCES",
     "SERVICE/ADDS/ARESKI ARBRE  DC ecotech.tssr/Infrastructure ADDS.md",
+    "SERVICE/PARE FEU HEPHAISTOS/PFSENSE_HEPHAISTOS_recap.md",
     "SERVICE/ADDS/recap_GPO_AdminLocal.md",
     "SERVICE/recap_GPO_AdminLocal.md",
     "SERVICE/PARE FEU HEPHAISTOS/recap_GPO_AdminLocal.md",
@@ -218,7 +226,6 @@
     "SERVICE/ADDS/ARESG interface graphique",
     "SERVICE/ADDS/ARESKI ARBRE  DC ecotech.tssr",
     "SERVICE/IREDMAIL",
-    "SERVICE/SWITCH L2L3 ATHENA",
     "archives/service dhcp dns.md",
     "archives/ARESG.md",
     "archives/9 MACHINES.md",
@@ -232,11 +239,6 @@
     "service dhcp dns.md",
     "schema_reseau_ecotech.png",
     "ressources_images/PFSENSE_config4.png",
-    "ressources_images/configurationreseau Host windowsavec box orangejpg.jpg",
-    "ressources_images/ATHENA CONFIG INTERFACES OK.png",
-    "Drawing 2026-01-26 17.17.54.excalidraw (1).png",
-    "ATHENA CONFIG INTERFACES OK.png",
-    "lancement ADDS Gemini.md",
-    "excel_admin/ATHENA CONFIG INTERFACES OK.png"
+    "lancement ADDS Gemini.md"
   ]
 }

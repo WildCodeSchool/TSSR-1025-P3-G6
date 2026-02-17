@@ -1,0 +1,11 @@
+Enable-ADAccount -Identity ma.zhang
+Set-ADAccountPassword -Identity ma.zhang -Reset -NewPassword (ConvertTo-SecureString -AsPlainText "Azerty1*2025" -Force)
+Set-ADUser -Identity ma.zhang -ChangePasswordAtLogon $false
+
+verif
+Get-ADUser -Identity ma.zhang | Select-Object Name,Enabled
+
+ Azerty1*2025
+
+reessaye
+Enable-ADAccount -Identity ma.zhang

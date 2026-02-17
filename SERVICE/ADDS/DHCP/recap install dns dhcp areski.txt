@@ -1,0 +1,71 @@
+
+PS C:\Users\wilder>
+>> Get-Service DNS,DHCPServer,NTDS | Select Name,Status,StartType
+Name        Status StartType
+----        ------ ---------
+DHCPServer Running Automatic
+DNS        Running Automatic
+NTDS       Running Automatic
+
+PS C:\Users\wilder> Get-DhcpServerv4Scope
+
+ScopeId         SubnetMask      Name           State    StartRange      EndRange        LeaseDuration
+-------         ----------      ----           -----    ----------      --------        -------------
+10.10.20.0      255.255.255.192 ACROPOLE       Active   10.10.20.1      10.10.20.60     8.00:00:00
+10.15.10.0      255.255.255.0   vlan 10        Active   10.15.10.1      10.15.10.254    8.00:00:00
+
+PS C:\Users\wilder> Get-DhcpServerv4Statistics
+
+ServerStartTime           : 29/01/2026 22:05:15
+TotalScopes               : 2
+ScopesWithDelayConfigured : 0
+ScopesWithDelayOffers     :
+TotalAddresses            : 303
+AddressesInUse            : 1
+AddressesAvailable        : 302
+PercentageInUse           : 0,330033
+PercentagePendingOffers   : 0
+PercentageAvailable       : 99,66997
+Discovers                 : 0
+Offers                    : 0
+PendingOffers             : 0
+DelayedOffers             : 0
+Requests                  : 0
+Acks                      : 0
+Naks                      : 0
+Declines                  : 0
+Releases                  : 0
+
+
+PS C:\Users\wilder> Resolve-DnsName ecotech.tssr
+
+Name                                           Type   TTL   Section    IPAddress
+----                                           ----   ---   -------    ---------
+ecotech.tssr                                   A      600   Answer     10.10.20.4
+
+PS C:\Users\wilder> Resolve-DnsName -Type SRV _ldap._tcp.dc._msdcs.ecotech.tssr
+
+Name                                     Type   TTL   Section    NameTarget                     Priority Weight Port
+----                                     ----   ---   -------    ----------                     -------- ------ ----
+_ldap._tcp.dc._msdcs.ecotech.tssr        SRV    600   Answer     areski.ecotech.tssr            0        100    389
+
+Name       : areski.ecotech.tssr
+QueryType  : A
+TTL        : 3600
+Section    : Additional
+IP4Address : 10.10.20.4
+
+Name       : areski.ecotech.tssr
+QueryType  : A
+TTL        : 3600
+Section    : Additional
+IP4Address : 10.0.3.15
+
+Name       : areski.ecotech.tssr
+QueryType  : AAAA
+TTL        : 3600
+Section    : Additional
+IP6Address : fd17:625c:f037:3:911a:7e63:d09:8fc8
+
+
+Azerty1*
