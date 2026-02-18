@@ -330,3 +330,68 @@ if ([string]::IsNullOrWhiteSpace($prenom) -or $prenom.Length -lt 2) {
 ✅ **RSAT** sur ARESG pour administration graphique  
 
 **État** : Infrastructure de base opérationnelle, prête pour les modules suivants (GPO avancées, messagerie, WSUS, VLAN dynamique).
+## Arbre de l'infrastructure EcoTech
+
+```
+DOMAINE : ecotech.tssr
+│
+├── UTILISATEURS (OU=Ecotech_Users)
+│   ├── OU=Direction
+│   │   ├── Managers (grp.Direction.mgr)
+│   │   ├── Users (grp.Direction.usr)
+│   │   └── Travelers (grp.Direction.trv)
+│   │
+│   ├── OU=DSI
+│   │   ├── Managers (grp.DSI.mgr) → Yara Tsai (ya.tsai)
+│   │   ├── Users (grp.DSI.usr)
+│   │   └── Travelers (grp.DSI.trv)
+│   │
+│   ├── OU=Developpement
+│   │   ├── Managers (grp.Developpement.mgr)
+│   │   ├── Users (grp.Developpement.usr) → Kenzo Yamamoto (ke.yamamoto)
+│   │   └── Travelers (grp.Developpement.trv)
+│   │
+│   ├── OU=RH
+│   ├── OU=Comptabilite
+│   ├── OU=Commercial
+│   ├── OU=Communication
+│   ├── OU=Accueil
+│   └── OU=Prestataire → Nikos Papadopoulos (ni.papadopoulos) - UBIHard
+│
+├── ORDINATEURS (OU=Ecotech_Computers)
+│   ├── ARESG (Windows Server 2022 GUI) - 10.10.20.14
+│   ├── ARESKI (Windows Server 2022 Core) - 10.10.20.4 - DC1
+│   ├── PROMETHEE (Windows Server 2022 Core) - 10.10.20.7 - DC2 (en cours)
+│   ├── CLIWIN01 (Windows 10/11)
+│   └── CLIWIN02 (Windows 10/11)
+│
+├── GROUPES (OU=Ecotech_Groups)
+│   ├── Groupes métier par OU (grp.[Service].[niveau])
+│   │   ├── grp.Direction.mgr/usr/trv
+│   │   ├── grp.DSI.mgr/usr/trv
+│   │   ├── grp.Developpement.mgr/usr/trv
+│   │   └── ... (tous les départements)
+│   │
+│   ├── Groupes globaux
+│   │   ├── grp.ALL.managers → regroupe tous les .mgr
+│   │   └── grp.ALL.users → regroupe tous les .usr
+│   │
+│   └── Groupes administration (cachés)
+│       ├── grp.Music.Vocal → Yara (Admin niveau 1)
+│       └── grp.Music.Instru → Nikos + Kenzo (Admin niveau 1)
+│
+└── SERVEUR DE FICHIERS (PROMETHEE)
+    └── Z:\Partages\
+        ├── Direction\
+        ├── RH\
+        ├── Comptabilite\
+        ├── Commercial\
+        ├── Developpement\
+        ├── DSI\
+        ├── Communication\
+        ├── Managers\ (réservé grp.ALL.managers)
+        ├── Users\
+        ├── Clients\
+        └── Public\
+            └── Wallpapers\ (fonds d'écran)
+```

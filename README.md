@@ -1,5 +1,13 @@
 # TSSR-1025-P3-G6
 
+Ce dépôt Github retrace la mise en place de la migration de l'infrastructure informatique de la société Ecotech.
+Ce dépôt est organisé comme suit :
+- Fichier READ ME
+- Dossier SERVICES avec les composantes de la nouvelle Architecture
+- Dossier EXCEL avec différents documents administratifs internes
+- Dossier DOCUMENTS TEMPORAIRES en attente de classements
+  
+
 
 # EcoTech Solutions 
 
@@ -72,8 +80,6 @@ L’entreprise existe depuis **2020** et compte **251 collaborateurs**, réparti
 - **Réseau interne sécurisé** dans le nouveau site.
     
 - **VPN** pour télétravail sécurisé.
-    
-- Modalités d’**externalisation** de la gestion du parc.
     
 - Plan de **cession/recyclage** du parc actuel.
     
