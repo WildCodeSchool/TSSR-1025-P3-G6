@@ -25,12 +25,14 @@
             "id": "1c058e7c660b4cdf",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "SERVICES/ADDS/winRMARESGVERS toARESKI ADDS5.png"
+                "file": "SERVICES/GLPI/GLPI.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "winRMARESGVERS toARESKI ADDS5"
+              "icon": "lucide-file",
+              "title": "GLPI"
             }
           }
         ],
@@ -198,6 +200,12 @@
   },
   "active": "1c058e7c660b4cdf",
   "lastOpenFiles": [
+    "SERVICES/IREDMAIL/etat et install.md",
+    "SERVICES/IREDMAIL/etat_dskdebiana 1.png",
+    "SERVICES/GLPI/GLPI.md",
+    "SERVICES/GLPI/etat_dskdebiana.png",
+    "README.md",
+    "SERVICES/ADDS/winRMARESGVERS toARESKI ADDS5.png",
     "SERVICES/ADDS/Problem1.png",
     "SERVICES/ADDS/1ADDRESSE RESEAU CORE ARESKI .png",
     "SERVICES/ADDS/GPO/PARTAGE FICHIER AU LOGON.md",
@@ -207,11 +215,7 @@
     "SERVICES/ADDS/GPO/GPO FOND ECRAN WALLPAPER/creation_GPO.png",
     "SERVICES/ADDS/GPO/GPO FOND ECRAN WALLPAPER/creation_GPO4.png",
     "SERVICES/ADDS/GPO/GPO FOND ECRAN WALLPAPER/creation_GPO3.png",
-    "SERVICES/ADDS/GPO/GPO FOND ECRAN WALLPAPER/creation_GPO2.png",
-    "SERVICES/ADDS/GPO/GPO FOND ECRAN WALLPAPER/liegpo a_ou_users.png",
     "SERVICES/ADDS/GPO/GPO FOND ECRAN WALLPAPER",
-    "SERVICES/ADDS/GPO/GPO BLOCK PANEL/gpouserblockpanel.png",
-    "SERVICES/ADDS/GPO/GPO POWERSHELL SECURITY/gpcomp_powershel2.png",
     "SERVICES/ADDS/GPO/GPO BLOCK PANEL",
     "SERVICES/ADDS/GPO/GPO POWERSHELL SECURITY",
     "SERVICES/ADDS/GPO/GPO MOT DE PASSE",
@@ -221,7 +225,6 @@
     "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/GPO local admin.md",
     "SERVICES/ADDS/GPO/RESTRICTION HORAIRE/Restriction d'horaire.md",
     "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/recap_GPO_AdminLocal.md",
-    "README.md",
     "SERVICES/HOST",
     "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr/Infrastructure ADDS.md",
     "DOCUMENTS TEMPORAIRES",
