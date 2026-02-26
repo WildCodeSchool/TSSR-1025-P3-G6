@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture réseau EcoTech Solutions.md",
+                "file": "SERVICES/ADDS/commande ADDS demo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Architecture réseau EcoTech Solutions"
-            }
-          },
-          {
-            "id": "1c058e7c660b4cdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SERVICES/GLPI/GLPI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GLPI"
+              "title": "commande ADDS demo"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 578.5
+    "width": 371.5
   },
   "right": {
     "id": "0672b2c90c28cb5a",
@@ -198,51 +183,52 @@
       "bases:Create new base": false
     }
   },
-  "active": "1c058e7c660b4cdf",
+  "active": "5ca919151120ab65",
   "lastOpenFiles": [
-    "SERVICES/IREDMAIL/etat et install.md",
-    "SERVICES/IREDMAIL/etat_dskdebiana 1.png",
-    "SERVICES/GLPI/GLPI.md",
-    "SERVICES/GLPI/etat_dskdebiana.png",
-    "README.md",
-    "SERVICES/ADDS/winRMARESGVERS toARESKI ADDS5.png",
+    "SERVICES/ADDS/commandes RSAT.md",
     "SERVICES/ADDS/Problem1.png",
-    "SERVICES/ADDS/1ADDRESSE RESEAU CORE ARESKI .png",
+    "SERVICES/ADDS/TSSR_2026-02-05_recap_ADDS_DHCP_DNS.md",
+    "SERVICES/IREDMAIL/etat et install.md",
+    "SERVICES/IREDMAIL/~$il_username.docx",
+    "SERVICES/IREDMAIL/~WRL0001.tmp",
+    "SERVICES/IREDMAIL/~WRD0000.tmp",
+    "SERVICES/IREDMAIL/mail_username.docx",
+    "SERVICES/IREDMAIL/create_mailboxes.sh",
+    "SERVICES/IREDMAIL/employesecotech.txt",
+    "Pasted image 20260225135731.png",
+    "SERVICES/IREDMAIL/postfixACTIVEinstallé proprem.png",
+    "SERVICES/IREDMAIL/mailenvoyé.png",
+    "SERVICES/IREDMAIL/mailrecu.png",
+    "SERVICES/IREDMAIL/rouncube_AdminOK.png",
+    "SERVICES/IREDMAIL/rouncube_OK.png",
+    "Pasted image 20260225133047.png",
+    "SERVICES/IREDMAIL/roundcube_ma.zhang.png",
+    "Pasted image 20260225114914.png",
+    "SERVICES/ADDS/commande ADDS demo.md",
+    "SERVICES/IREDMAIL/ECOTECH_iRedMail_HERA_installation.md",
+    "SERVICES/ADDS/WinRM connection.md",
+    "SERVICES/IREDMAIL/Details of this iRedMail installation.md",
+    "SERVICES/IREDMAIL/## How to configure your mail client applications (MUA).md",
+    "SERVICES/IREDMAIL/Useful resources for iRedMail administrator.md",
+    "SERVICES/IREDMAIL/ECOTECH_iRedMail_HERA_3installation.md",
+    "SERVICES/IREDMAIL/ECOTECH_iRedMail_HERA_buginstallation.md",
+    "SERVICES/VOIP/install Freepbx.md",
+    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr/Infrastructure ADDS.md",
+    "SERVICES/GLPI/GLPI.md",
+    "README.md",
     "SERVICES/ADDS/GPO/PARTAGE FICHIER AU LOGON.md",
-    "SERVICES/ADDS/GPO/PARTAGE FICHIER AU LOGON/gpo_script_home_user.png",
     "SERVICES/ADDS/GPO/PARTAGE FICHIER AU LOGON",
-    "SERVICES/ADDS/GPO/PARTAGE FICHIER AU LOGON/gpo_script_home_user2.png",
-    "SERVICES/ADDS/GPO/GPO FOND ECRAN WALLPAPER/creation_GPO.png",
-    "SERVICES/ADDS/GPO/GPO FOND ECRAN WALLPAPER/creation_GPO4.png",
-    "SERVICES/ADDS/GPO/GPO FOND ECRAN WALLPAPER/creation_GPO3.png",
     "SERVICES/ADDS/GPO/GPO FOND ECRAN WALLPAPER",
     "SERVICES/ADDS/GPO/GPO BLOCK PANEL",
     "SERVICES/ADDS/GPO/GPO POWERSHELL SECURITY",
-    "SERVICES/ADDS/GPO/GPO MOT DE PASSE",
     "SERVICES/ADDS/GPO/RESTRICTION HORAIRE/Restrictions d'horaires de connexion.md",
-    "SERVICES/ADDS/GPO/RESTRICTION HORAIRE",
-    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN",
     "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/GPO local admin.md",
     "SERVICES/ADDS/GPO/RESTRICTION HORAIRE/Restriction d'horaire.md",
     "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/recap_GPO_AdminLocal.md",
-    "SERVICES/HOST",
-    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr/Infrastructure ADDS.md",
-    "DOCUMENTS TEMPORAIRES",
-    "SERVICES/ADDS/GPO/RESSOURCES",
     "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_HEPHAISTOS_recap.md",
     "SERVICE/ADDS/recap_GPO_AdminLocal.md",
     "SERVICE/recap_GPO_AdminLocal.md",
     "SERVICE/PARE FEU HEPHAISTOS/recap_GPO_AdminLocal.md",
-    "DOCUMENTS TEMPORAIRES/Architecture réseau EcoTech Solutions.md",
-    "archives/service dhcp dns.md",
-    "archives/ARESG.md",
-    "archives/9 MACHINES.md",
-    "Nouveau dossier/9 MACHINES.md",
-    "Nouveau dossier/service dhcp dns.md",
-    "Nouveau dossier/ARESG.md",
-    "9 MACHINES.md",
-    "ARESG.md",
-    "service dhcp dns.md",
-    "lancement ADDS Gemini.md"
+    "DOCUMENTS TEMPORAIRES/Architecture réseau EcoTech Solutions.md"
   ]
 }
