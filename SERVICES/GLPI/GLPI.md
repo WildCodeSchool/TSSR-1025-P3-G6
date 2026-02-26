@@ -7,8 +7,8 @@ Deux cartes reseau sur virtual box
 installation de glpi sur lvdata ( on installera iredmail sur lv data 2)
 
 
-![](etat_dskdebiana.png)
-![](../../Pasted%20image%2020260219121258.png)![](formatlv1ext4.png)
+![](Ressources/etat_dskdebiana.png)
+![](../../Pasted%20image%2020260219121258.png)![](Ressources/formatlv1ext4.png)
  Creation du point de montage dans un dossier "glpi" dans /var/www/  repertoire standart pour les serveurs web :
 ```
  sudo mkdir -p /var/www/glpi
@@ -32,7 +32,7 @@ wilder@DEBIANA:/var/www/glpi$ sudo blkid /dev/vg_data/lv_data
 ```
 
 
-fichier fstab :![](MONTAGE_FSTAB_GLPI.png)
+fichier fstab :![](Ressources/MONTAGE_FSTAB_GLPI.png)
 on verifie et on force tous les disques a monter ( -a pour all )
 
 ```
@@ -172,10 +172,7 @@ bash
 sudo tar -xzf glpi-10.0.17.tgz -C /var/www/
 ```
 
-explique
-
-16:27
-
+voici l'explication de cette commande: 
 - **tar** : outil d'archivage Linux
 - **-x** : extraire (extract)
 - **-z** : décompresser le gzip (le `.tgz`)
@@ -188,6 +185,8 @@ Le `.tgz` = `.tar` + `.gz` → compressé en deux étapes, décompressé en une 
 ```
 wilder@DEBIANA:~$ ls /var/www/
 ```
+dans le dossier www on trouve : 
+
 glpi  html
 
 
@@ -196,7 +195,7 @@ wilder@DEBIANA:~$ sudo chown -R www-data:www-data /var/www/glpi
 wilder@DEBIANA:~$ sudo chmod -R 755 /var/www/glpi
 wilder@DEBIANA:~$ sudo nano /etc/apache2/sites-available/glpi.conf
 ```
-On colle la config dans le fichoier glpi;conf :
+On colle la config dans le fichoier glpi.conf :
 ```
 
 <VirtualHost *:80>
@@ -214,7 +213,7 @@ On colle la config dans le fichoier glpi;conf :
 </VirtualHost>
 ```
 
-## explication 
+## explication  de la config 
 ```
 VirtualHost : 80 
 Écoute sur toutes les interfaces réseau sur le port 80 (HTTP).
@@ -223,7 +222,7 @@ ServerName : glpi.ecotech.tssr
 Le nom de domaine associé à ce site. Apache redirige vers ce vhost quand une requête arrive pour ce nom.
 
 DocumentRoot /var/www/glpi/public
-Le dossier racine servi par Apache. GLPI 10.x impose `/public` comme point d'entrée, pas la racine du dossier glpi.
+Le dossier racine servi par Apache. GLPI impose `/public` comme point d'entrée, pas la racine du dossier glpi.
 
 Directory /var/www/glpi/public
 Bloc de configuration spécifique à ce dossier.
@@ -258,17 +257,14 @@ sudo -u www-data php /var/www/glpi/bin/console db:install --db-host=localhost --
 ```
 
 +---------------+-----------+
-| Database host | localhost |
-| Database name | glpi      |
-| Database user | glpi      |
+| Database host | localhost  |
+| Database name | glpi         |
+| Database user | glpi           | 
 +---------------+-----------+
 
 Do you want to continue? [Yes/no]YES
 Timezones usage cannot be activated due to following errors:
- - Timezones seems not loaded, see https://glpi-install.readthedocs.io/en/latest/timezones.html.
-- 
 Do you want to continue? [Yes/no]Yes
-[============================] 100%
 
 > Database structure created.
 > Default data imported.
@@ -278,15 +274,12 @@ Do you want to continue? [Yes/no]Yes
 > Configuration defaults defined.
 > Installation done.
 
-We need your help to improve GLPI and the plugins ecosystem!
-Since GLPI 9.2, we’ve introduced a new statistics feature called “Telemetry”, that anonymously with your permission, sends data to our telemetry website.
-Once sent, usage statistics are aggregated and made available to a broad range of GLPI developers.
-Let us know your usage to improve future versions of GLPI and its plugins!
-Do you want to send "usage statistics"? [Yes/no]
 
-![](InterfaceGLPI1.png)![](InterfaceGLPI1.png)![](InterfaceGLPI2.png)![](InterfaceGLPI3french.png)
+on se connecte en gui avec l'adresse glpi.ecotech.tssr
 
+![](Ressources/InterfaceGLPI1.png)![](Ressources/InterfaceGLPI1.png)![](Ressources/InterfaceGLPI2.png)![](Ressources/InterfaceGLPI3french.png)
 
+Imports des utilisateurs et jonction avec la base ADDS
 
 installer les utilitaires ldap
 
@@ -294,8 +287,12 @@ installer les utilitaires ldap
 sudo apt install ldap-utils -y
 ```
 
-commande pour trouver un user dans la base ldap
-
+commande pour trouver un user dans la base ldap ici ke.yamamoto 
+pour tester l'annuaire ldap
 ```
 ldapsearch -x -H ldap://10.10.20.4 -D "CN=Administrator,CN=Users,DC=ecotech,DC=tssr" -w "Azerty1*" -b "DC=ecotech,DC=tssr" "(sAMAccountName=ke.yamamoto)"
 ```
+ca fonctionne de mon coté
+
+voyons maintenant comment lie la base ldap a glpi 
+![](Ressources/InterfaceGLPI3LDAP1.png)![](Ressources/InterfaceGLPI3LDAP2.png)![](Ressources/InterfaceGLPI3LDAP3.png)![](Ressources/InterfaceGLPI3LDAP4.png)![](Ressources/InterfaceGLPI3LDAP5.png)

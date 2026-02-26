@@ -5,7 +5,7 @@ Deux cartes reseau sur virtual box
 1 en reseau interen sur reseau ACROPOLE  avec ip fixe en 10.10.20.10
 
  on installera iredmail sur lv data 2 
- ![](etat_dskdebiana%201.png)
+ ![](RESSOURCES/etat_dskdebiana%201.png)
  
  
 # partition principal
@@ -100,7 +100,7 @@ beaucoups de paquets
 
 # pour DEBIAN 13
 corection a faire dans le scripte si certains paquets ont changé de nom entre la debian 12 et la debian 13 
-### -1 autoriser debian 13
+### 1 autoriser debian 13
 ```
 nano +289 conf/global  
 
@@ -111,7 +111,7 @@ Remplace par :
  echo "{DISTRO_VERSION}" | grep -E '^(12|13)' &>/dev/null
 ```
  
-### 2 utilise sed pour trouver et remplacer les paquets modifié pour debian 13:
+### 2 utilise sed pour trouver et remplacer les paquets modifié pour debian 13
 
 nano +536 functions/packages.sh ``` 
 
@@ -193,6 +193,15 @@ Depuis le réseau ACROPOLE vers HERA :
 |993|TCP|IMAP SSL|entrant|
 |443|TCP|HTTPS (Roundcube/iRedAdmin)|entrant|
 |80|TCP|HTTP (redirection vers 443)|entrant|
+
+
+Quick MUA Settings
+
+- Login username of SMTP/POP3/IMAP services must be full email address.
+- POP3 service: port 110 over STARTTLS, or port 995 with SSL.
+- IMAP service: port 143 over STARTTLS, or port 993 with SSL.
+- SMTP service: port 587 over STARTTLS, or port 465 with SSL.
+- CalDAV and CardDAV server addresses: `https://<server>/SOGo/dav/<full email address>`
 
 Pour l'instant en lab interne, les clients mail (Thunderbird) et HERA sont sur le même réseau ACROPOLE — le trafic ne passe pas par pfSense. Ces règles seront utiles surtout quand tu ouvriras l'accès depuis les VLANs HERCULE.**En interne (VLANs HERCULE → HERA) :** Les utilisateurs des différents départements (RH, Finance, DSI...) accèdent à leur messagerie via Roundcube (443) ou Thunderbird (IMAP 993, SMTP 587).
 
@@ -320,7 +329,12 @@ sudo apt install ldap-utils -y
 ![](../../Pasted%20image%2020260225133047.png)
 
 
-![](../../Pasted%20image%2020260225135731.png)![](mailrecu.png)
+![](../../Pasted%20image%2020260225135731.png)![](RESSOURCES/mailrecu.png)
 
 
-maintenant création des boites mails pour tout le monde
+maintenant création des boites mails pour tout le monde et good...
+
+
+
+
+![](RESSOURCES/architecture_iredmail.svg)

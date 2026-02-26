@@ -60,4 +60,9 @@ Vérifie avec la commande `localectl` :
 System Locale: LANG=fr_FR.UTF-8
     VC Keymap: fr
    X11 Layout: fr
-```
+```![](install_ok%20.png)![](install_ok%20.png)```
+
+````
+``
+
+![](ressources/install_ok%20.png)![](ressources/sshconnectionroot.png)

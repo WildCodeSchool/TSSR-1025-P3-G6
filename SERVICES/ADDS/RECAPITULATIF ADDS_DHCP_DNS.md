@@ -1,14 +1,6 @@
 
 ## Console d'administration Active Directory
 
-La commande exacte pour accéder à l'interface de gestion des utilisateurs et des ordinateurs au sein d'un domaine Active Directory (AD DS) est :
-
-**`dsa.msc`** (Directory Service Administration)
-
----
-
-### Commandes de gestion complémentaires
-
 Voici les consoles d'administration (MSC) les plus fréquentes pour la gestion d'infrastructure :
 
 | Console                            | Commande       | Usage principal                                                  |
@@ -38,7 +30,8 @@ Voici les consoles d'administration (MSC) les plus fréquentes pour la gestion d
 ## Infrastructure
 
 - **ARESKI** : Windows Server 2022 Core - DC principal (ADDS/DNS/DHCP)
-- **ARESG** : Windows Server avec GUI - Station d'administration (RSAT)
+- **PROMETHEE** : Windows Server 2022 Core - DC  (ADDS/DNS/DHCP)
+- **ARESG** : Windows Server avec GUI - Station d'administration (RSAT) . peut etre eteinte pour gagner de la RAM
 - **Domaine** : ecotech.tssr
 - **Réseau** : 10.10.20.0/26 (ACROPOLE)
 
@@ -316,33 +309,7 @@ Get-DhcpServerv4Scope
 
 ---
 
-## Prochaines étapes
 
-- [ ] Créer des DC secondaires (SRVWIN02, SRVWIN03) pour la redondance
-- [ ] Configurer la réplication AD
-- [ ] Répartir les rôles FSMO
-- [ ] Mettre en place les GPO (dossiers partagés, fonds d'écran, restrictions)
-- [ ] Configurer WSUS pour les mises à jour
-- [ ] Implémenter l'attribution dynamique de VLAN
-
----
-
-## Notes pour l'examen
-
-**Concepts clés maîtrisés** :
-- Structure hiérarchique AD (OUs, groupes, utilisateurs)
-- Scripting PowerShell avec gestion d'erreurs
-- Validation de données et gestion de doublons
-- Groupes imbriqués pour simplifier l'administration
-- Convention de nommage cohérente
-- Séparation des prestataires
-
-**Bonnes pratiques appliquées** :
-- Validation des données avant traitement
-- Gestion d'erreurs avec try-catch
-- Messages de progression et compteurs
-- Scripts réutilisables et idempotents
-- Documentation claire avec commentaires
 ## Arbre de l'infrastructure EcoTech
 
 ```
@@ -419,14 +386,3 @@ DOMAINE : ecotech.tssr
 - **Globaux** : grp.ALL.managers / grp.ALL.users
 - **Admin** : grp.Music.Vocal/Instru (cachés)
 
-**GPO :**
-
-
-- GPO  Politique de mot de passe (complexité, longueur, etc.)
-- GPO Verrouillage de compte (blocage de l'accès à la session après quelques erreur de mot de passe)
-- GPO Blocage complet ou partiel au panneau de configuration
- - GPO Gestion d'un compte du domaine qui est administrateur local des machines
-- Politique de sécurité PowerShell
-- Créer 2 GPO supplémentaires au choix : 
-	- GPO_Wallpaper_Managers → cible grp.ALL.managers
-	- GPO_Wallpaper_Users → cible grp.ALL.users

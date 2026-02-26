@@ -1,0 +1,175 @@
+<svg width="960" height="730" viewBox="0 0 960 730" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+
+  <rect width="960" height="730" fill="#1a1a2e"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7faaff"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#66cc88"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ffaa44"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff6666"/>
+    </marker>
+    <marker id="arrow-pink" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ee44aa"/>
+    </marker>
+  </defs>
+
+  <!-- Titre -->
+  <text x="480" y="28" text-anchor="middle" fill="#e0e0ff" font-size="15" font-weight="bold">Architecture iRedMail — HERA1 (10.10.20.2) — EcoTech Solutions</text>
+
+  <!-- Boîte serveur HERA1 -->
+  <rect x="200" y="40" width="590" height="590" rx="16" fill="none" stroke="#334466" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="495" y="62" text-anchor="middle" fill="#556688" font-size="12" font-weight="bold">SERVEUR HERA1 — Debian 13</text>
+
+  <!-- CLIENTS GAUCHE -->
+  <!-- Client externe -->
+  <rect x="20" y="70" width="145" height="55" rx="8" fill="#2a3a5a" stroke="#7faaff" stroke-width="1.5"/>
+  <text x="92" y="93" text-anchor="middle" fill="#aaccff" font-size="12" font-weight="bold">Client externe</text>
+  <text x="92" y="112" text-anchor="middle" fill="#7faaff" font-size="10">Envoi email SMTP</text>
+
+  <!-- Navigateur -->
+  <rect x="20" y="210" width="145" height="55" rx="8" fill="#2a3a5a" stroke="#7faaff" stroke-width="1.5"/>
+  <text x="92" y="233" text-anchor="middle" fill="#aaccff" font-size="12" font-weight="bold">Navigateur</text>
+  <text x="92" y="252" text-anchor="middle" fill="#7faaff" font-size="10">Roundcube HTTPS:443</text>
+
+  <!-- Client IMAP -->
+  <rect x="20" y="350" width="145" height="55" rx="8" fill="#2a3a5a" stroke="#7faaff" stroke-width="1.5"/>
+  <text x="92" y="373" text-anchor="middle" fill="#aaccff" font-size="12" font-weight="bold">Client mail</text>
+  <text x="92" y="390" text-anchor="middle" fill="#7faaff" font-size="10">Thunderbird IMAP:993</text>
+
+  <!-- POSTFIX -->
+  <rect x="230" y="75" width="155" height="70" rx="8" fill="#1e3a4a" stroke="#44aacc" stroke-width="2"/>
+  <text x="307" y="100" text-anchor="middle" fill="#44ccee" font-size="13" font-weight="bold">POSTFIX</text>
+  <text x="307" y="117" text-anchor="middle" fill="#88ccdd" font-size="10">MTA — SMTP</text>
+  <text x="307" y="133" text-anchor="middle" fill="#88ccdd" font-size="10">ports 25 / 465 / 587</text>
+
+  <!-- AMAVIS -->
+  <rect x="420" y="75" width="155" height="70" rx="8" fill="#2a2a1e" stroke="#ccaa22" stroke-width="2"/>
+  <text x="497" y="100" text-anchor="middle" fill="#eebb33" font-size="13" font-weight="bold">AMAVIS</text>
+  <text x="497" y="117" text-anchor="middle" fill="#ccaa55" font-size="10">Antispam / Antivirus</text>
+  <text x="497" y="133" text-anchor="middle" fill="#ccaa55" font-size="10">SpamAssassin + ClamAV</text>
+
+  <!-- DKIM -->
+  <rect x="610" y="75" width="145" height="70" rx="8" fill="#1e2a1e" stroke="#44cc44" stroke-width="2"/>
+  <text x="682" y="100" text-anchor="middle" fill="#66ee66" font-size="13" font-weight="bold">DKIM</text>
+  <text x="682" y="117" text-anchor="middle" fill="#88cc88" font-size="10">Signature sortante</text>
+  <text x="682" y="133" text-anchor="middle" fill="#88cc88" font-size="10">RSA 2048 bits</text>
+
+  <!-- NGINX -->
+  <rect x="230" y="215" width="155" height="70" rx="8" fill="#2a1e3a" stroke="#aa44cc" stroke-width="2"/>
+  <text x="307" y="240" text-anchor="middle" fill="#cc66ee" font-size="13" font-weight="bold">NGINX</text>
+  <text x="307" y="257" text-anchor="middle" fill="#aa66cc" font-size="10">Reverse Proxy</text>
+  <text x="307" y="273" text-anchor="middle" fill="#aa66cc" font-size="10">HTTPS → Roundcube</text>
+
+  <!-- ROUNDCUBE -->
+  <rect x="420" y="215" width="155" height="70" rx="8" fill="#2a1e2a" stroke="#ee44aa" stroke-width="2"/>
+  <text x="497" y="240" text-anchor="middle" fill="#ff66bb" font-size="13" font-weight="bold">ROUNDCUBE</text>
+  <text x="497" y="257" text-anchor="middle" fill="#cc6699" font-size="10">Webmail PHP</text>
+  <text x="497" y="273" text-anchor="middle" fill="#cc6699" font-size="10">Interface utilisateur</text>
+
+  <!-- DOVECOT -->
+  <rect x="230" y="360" width="155" height="70" rx="8" fill="#1e2a3a" stroke="#4488cc" stroke-width="2"/>
+  <text x="307" y="385" text-anchor="middle" fill="#66aaee" font-size="13" font-weight="bold">DOVECOT</text>
+  <text x="307" y="402" text-anchor="middle" fill="#6699cc" font-size="10">Serveur IMAP / POP3</text>
+  <text x="307" y="418" text-anchor="middle" fill="#6699cc" font-size="10">Auth LDAP → AD</text>
+
+  <!-- MARIADB -->
+  <rect x="420" y="360" width="155" height="70" rx="8" fill="#1e2a1e" stroke="#44bb44" stroke-width="2"/>
+  <text x="497" y="385" text-anchor="middle" fill="#66dd66" font-size="13" font-weight="bold">MariaDB</text>
+  <text x="497" y="402" text-anchor="middle" fill="#66aa66" font-size="10">Base vmail</text>
+  <text x="497" y="418" text-anchor="middle" fill="#66aa66" font-size="10">comptes / quotas / aliases</text>
+
+  <!-- STOCKAGE -->
+  <rect x="320" y="490" width="215" height="55" rx="8" fill="#1a2a1a" stroke="#336633" stroke-width="1.5"/>
+  <text x="427" y="513" text-anchor="middle" fill="#55aa55" font-size="12" font-weight="bold">Stockage /var/vmail</text>
+  <text x="427" y="532" text-anchor="middle" fill="#447744" font-size="10">LVM dédié — lv_data2</text>
+
+  <!-- AD ARESKI droite -->
+  <rect x="820" y="340" width="125" height="80" rx="8" fill="#2a1a1a" stroke="#cc4444" stroke-width="2"/>
+  <text x="882" y="365" text-anchor="middle" fill="#ee6666" font-size="12" font-weight="bold">AD / LDAP</text>
+  <text x="882" y="382" text-anchor="middle" fill="#cc5555" font-size="10">ARESKI</text>
+  <text x="882" y="399" text-anchor="middle" fill="#cc5555" font-size="10">10.10.20.4:389</text>
+
+  <!-- ===== FLÈCHES ===== -->
+
+  <!-- Client externe → Postfix -->
+  <line x1="165" y1="95" x2="228" y2="100" stroke="#7faaff" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="195" y="88" text-anchor="middle" fill="#7faaff" font-size="10">SMTP:25</text>
+
+  <!-- Postfix → Amavis -->
+  <line x1="385" y1="110" x2="418" y2="110" stroke="#ffaa44" stroke-width="1.5" marker-end="url(#arrow-orange)"/>
+  <text x="401" y="103" text-anchor="middle" fill="#ffaa44" font-size="10">filtre</text>
+
+  <!-- Amavis → DKIM -->
+  <line x1="575" y1="110" x2="608" y2="110" stroke="#66cc88" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+  <text x="591" y="103" text-anchor="middle" fill="#66cc88" font-size="10">sign</text>
+
+  <!-- DKIM → Internet (sortie) -->
+  <line x1="755" y1="100" x2="820" y2="80" stroke="#66cc88" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+  <text x="800" y="72" fill="#66cc88" font-size="10">Internet</text>
+
+  <!-- Postfix → Dovecot (livraison locale) -->
+  <line x1="307" y1="145" x2="307" y2="358" stroke="#44aacc" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="320" y="260" fill="#44aacc" font-size="10">livraison</text>
+  <text x="320" y="274" fill="#44aacc" font-size="10">locale</text>
+
+  <!-- Dovecot → MariaDB -->
+  <line x1="385" y1="398" x2="418" y2="398" stroke="#66cc88" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+  <text x="401" y="390" text-anchor="middle" fill="#66cc88" font-size="10">vmail</text>
+
+  <!-- Dovecot → AD LDAP -->
+  <line x1="385" y1="415" x2="818" y2="390" stroke="#ff6666" stroke-width="1.5" stroke-dasharray="6,3" marker-end="url(#arrow-red)"/>
+  <text x="615" y="395" text-anchor="middle" fill="#ff6666" font-size="10">bind LDAP:389</text>
+
+  <!-- Dovecot → stockage -->
+  <line x1="307" y1="430" x2="380" y2="490" stroke="#336633" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+
+  <!-- MariaDB → stockage -->
+  <line x1="497" y1="430" x2="470" y2="490" stroke="#336633" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+
+  <!-- Navigateur → Nginx -->
+  <line x1="165" y1="237" x2="228" y2="248" stroke="#7faaff" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="192" y="230" text-anchor="middle" fill="#7faaff" font-size="10">HTTPS:443</text>
+
+  <!-- Nginx → Roundcube -->
+  <line x1="385" y1="250" x2="418" y2="250" stroke="#aa44cc" stroke-width="1.5" marker-end="url(#arrow-orange)"/>
+
+  <!-- Roundcube → Dovecot (lecture IMAP) -->
+  <line x1="470" y1="285" x2="370" y2="358" stroke="#ee44aa" stroke-width="1.5" marker-end="url(#arrow-pink)"/>
+  <text x="445" y="335" fill="#ee44aa" font-size="10">IMAP interne</text>
+
+  <!-- Roundcube → Postfix (envoi) -->
+  <line x1="430" y1="218" x2="385" y2="145" stroke="#ee44aa" stroke-width="1.5" marker-end="url(#arrow-pink)"/>
+  <text x="382" y="185" fill="#ee44aa" font-size="10">SMTP:587</text>
+
+  <!-- Client IMAP → Dovecot -->
+  <line x1="165" y1="375" x2="228" y2="390" stroke="#4488cc" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="190" y="367" text-anchor="middle" fill="#4488cc" font-size="10">IMAP:993</text>
+
+  <!-- ===== LÉGENDE ===== -->
+  <rect x="10" y="612" width="940" height="110" rx="8" fill="#111122" stroke="#333355" stroke-width="1"/>
+  <text x="30" y="632" fill="#aaaacc" font-size="11" font-weight="bold">Légende :</text>
+
+  <line x1="30" y1="650" x2="70" y2="650" stroke="#7faaff" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="78" y="654" fill="#aaaacc" font-size="10">Flux SMTP (email)</text>
+
+  <line x1="210" y1="650" x2="250" y2="650" stroke="#ff6666" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow-red)"/>
+  <text x="258" y="654" fill="#aaaacc" font-size="10">Auth LDAP → Active Directory</text>
+
+  <line x1="450" y1="650" x2="490" y2="650" stroke="#66cc88" stroke-width="2" marker-end="url(#arrow-green)"/>
+  <text x="498" y="654" fill="#aaaacc" font-size="10">Lecture/écriture MariaDB / LVM</text>
+
+  <line x1="700" y1="650" x2="740" y2="650" stroke="#ee44aa" stroke-width="2" marker-end="url(#arrow-pink)"/>
+  <text x="748" y="654" fill="#aaaacc" font-size="10">Flux Roundcube</text>
+
+  <text x="30" y="678" fill="#666688" font-size="10">📥 Email ENTRANT : Internet → Postfix(25) → Amavis(filtre) → Dovecot → /var/vmail</text>
+  <text x="30" y="696" fill="#666688" font-size="10">📤 Email SORTANT : Roundcube → Postfix(587) → Amavis → DKIM(signature) → Internet</text>
+  <text x="30" y="714" fill="#666688" font-size="10">🔐 AUTH : Dovecot interroge AD ARESKI via LDAP bind(389) — mot de passe jamais stocké sur HERA1</text>
+
+</svg>
