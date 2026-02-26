@@ -1,0 +1,8 @@
+
+installation de Pfsense 
+laissez vous guider par l'installeur
+
+PFSENSE_INSTALL%20.png)![](../RESSOURCES/PFSENSE_INSTALL2%20.png)
+![](../RESSOURCES/PFSENSE_INSTALL3%20.png)
+![](../RESSOURCES/PFSENSE_INSTALL4%20.png)![](../RESSOURCES/PFSENSE_INSTALL5%20.png)![](../RESSOURCES/PFSENSE_INSTALL6%20.png)
+

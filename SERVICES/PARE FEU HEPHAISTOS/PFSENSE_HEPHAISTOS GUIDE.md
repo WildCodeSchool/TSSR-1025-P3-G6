@@ -1,4 +1,4 @@
-# PFSENSE - HEPHAISTOS - Récapitulatif complet
+# 
 
 ---
 
@@ -38,8 +38,11 @@
 **Accès interface web :**
 - Depuis SPARTAKA (Ubuntu, 172.16.30.2) via `https://172.16.30.1`
 - Login : `admin` / `pfsense`
+![](PFSENSE_config4%20.png)
 
----
+![](PFSENSE_config5%20.png)
+
+
 
 ## 2. Renommage interface OPT1 en DMZ
 
@@ -50,9 +53,9 @@
 - IPv4 Address : `172.16.30.1/28`
 - Enable interface : coché
 - Save → Apply Changes
-
+![](PFSENSE_config5%20.png)
 ---
-
+## 2b. Gestionsur interface graphique 
 ## 3. Audit des règles firewall
 
 **État initial des règles :**
@@ -77,7 +80,7 @@ Les interfaces LAN et DMZ ne doivent **pas** avoir de gateway — pfSense est lu
 Action : Suppression de `LANGW` (gateway IPv4 incorrecte sur interface LAN).
 
 **Règle :** Seule l'interface WAN doit avoir une gateway (192.168.1.1).
-
+![](RESSOURCES/PFSENSE_configgateway%201%20.png)
 ---
 
 ## 5. Incident : perte d'accès interface web

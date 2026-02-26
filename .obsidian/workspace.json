@@ -11,14 +11,12 @@
             "id": "5ca919151120ab65",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Infrastructure ADDS.md",
-                "mode": "source",
-                "source": false
+                "file": "SERVICES/PARE FEU HEPHAISTOS/VirtualBox_SPARTAKAPFSENSEreglelan2decochee.png"
               },
-              "icon": "lucide-file",
-              "title": "Infrastructure ADDS"
+              "icon": "lucide-image",
+              "title": "VirtualBox_SPARTAKAPFSENSEreglelan2decochee"
             }
           }
         ]
@@ -185,29 +183,34 @@
   },
   "active": "5ca919151120ab65",
   "lastOpenFiles": [
-    "README.md",
+    "SERVICES/PARE FEU HEPHAISTOS/VirtualBox_SPARTAKAPFSENSEreglelan2.png",
+    "SERVICES/PARE FEU HEPHAISTOS/VirtualBox_SPARTAKAPFSENSEreglelan.png",
+    "SERVICES/PARE FEU HEPHAISTOS/VirtualBox_SPARTAKAPFSENSEALIASLAN.png",
+    "SERVICES/PARE FEU HEPHAISTOS/VirtualBox_SPARTAKAPFSENSEALIAS PORT.png",
+    "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_config6 .png",
+    "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_config4 .png",
+    "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_config4.png",
+    "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_config3 .png",
+    "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_config2 .png",
+    "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_config1 .png",
+    "SERVICES/PARE FEU HEPHAISTOS/INSTALL GUIDE/INSTALL.md",
+    "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_HEPHAISTOS GUIDE.md",
+    "SERVICES/PARE FEU HEPHAISTOS/RESSOURCES/PFSENSE_configgateway 1 .png",
+    "SERVICES/PARE FEU HEPHAISTOS/openvpn sur pfsense..md",
+    "SERVICES/PARE FEU HEPHAISTOS/INSTALL GUIDE",
+    "SERVICES/PARE FEU HEPHAISTOS/RESSOURCES",
     "Infrastructure ADDS.md",
-    "DOCUMENTS TEMPORAIRES/schemareseau.png",
-    "SERVICES/Drawing 2026-01-26 17.17.54.excalidraw.png",
-    "SERVICES/Drawing 2026-01-26 17.17.544.excalidraw.png",
+    "README.md",
     "Drawing 2026-01-26 17.17.54.excalidraw.md",
     "ECOTECH.pdf",
     "DOCUMENTS TEMPORAIRES/Architecture réseau EcoTech Solutions.md",
     "DOCUMENTS TEMPORAIRES/openvpn sur pfsense..md",
     "DOCUMENTS TEMPORAIRES/OPENVPN BOX ORANGE dns.md",
     "DOCUMENTS TEMPORAIRES/regles pfsense dmz AR.md",
-    "SERVICES/PARE FEU HEPHAISTOS/openvpn sur pfsense..md",
     "DOCUMENTS TEMPORAIRES/recap rapide pour creer une gpo.md",
     "DOCUMENTS TEMPORAIRES/p3-sprint-1-annexe-2-entreprise-2-EcoTechSolutions.md",
     "DOCUMENTS TEMPORAIRES/ecotechchatgpt.md",
-    "DOCUMENTS TEMPORAIRES/Drawing 2026-01-26 17.17.54.excalidraw 1.png",
     "SERVICES/ADDS/NEWDISK8PROMETHEE/partage Z dans Promethee.md",
-    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260219121258.png",
-    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260225135731.png",
-    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260225133047.png",
-    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260225114914.png",
-    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260225114700.png",
-    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260224184006.png",
     "SERVICES/GLPI/GLPI.md",
     "SERVICES/VOIP@/install Freepbx.md",
     "SERVICES/GLPI/Ressources",
@@ -224,11 +227,7 @@
     "SERVICES/ADDS/USERS/ressource/commande ADDS demo.md",
     "SERVICES/ADDS/WinRM connection.md",
     "SERVICES/ADDS/USERS/ressource",
-    "SERVICES/OPENVPN@/configuration d'une liaison vpn.md",
     "SERVICES/OPENVPN@/ressource",
-    "SERVICES/IREDMAIL@/RESSOURCES/Useful resources for iRedMail administrator.md",
-    "SERVICES/IREDMAIL@/RESSOURCES",
-    "SERVICES/IREDMAIL@/architecture_iredmail.html",
-    "SERVICES/IREDMAIL/~$il_username.docx"
+    "SERVICES/IREDMAIL@/RESSOURCES"
   ]
 }
