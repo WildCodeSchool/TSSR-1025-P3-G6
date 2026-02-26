@@ -8,7 +8,6 @@
 **DCs** : ARESKI (principal), PROMETHEE (secondaire)  
 **Administration** : ARESG (RSAT)  
 **Réseau ACROPOLE** : 10.10.20.0/26
-
 ---
 
 ## 1. Structure Active Directory
@@ -32,7 +31,13 @@ ecotech.tssr
     ├── APOLLON
     ├── ARESG
     └── HADES
+
+
+
 ```
+
+
+
 
 ---
 
@@ -316,6 +321,9 @@ if ([string]::IsNullOrWhiteSpace($prenom) -or $prenom.Length -lt 2) {
 - VLAN 80 : Prestataire (10.15.80.0/24)
 - VLAN 90 : Accueil (10.15.90.0/24)
 
+Pour l'instant , c'est a la personne qui se connecte de s'inserer dans un vlan en s'atribuant une adresse dans le vlan de son service. Plus tard on fera une atribution automatique en fonction des caracteristiques de l'utilisateurs 
+
+
 ---
 
 ## Résumé des réalisations
@@ -323,11 +331,25 @@ if ([string]::IsNullOrWhiteSpace($prenom) -or $prenom.Length -lt 2) {
 ✅ **Structure AD complète** : 9 OUs services + groupes + computers  
 ✅ **27 groupes de sécurité** + 2 méta-groupes (ALL.managers, ALL.users)  
 ✅ **251 utilisateurs** créés automatiquement via script PowerShell  
-✅ **Isolation prestataires** dans OU dédiée  
+✅ **Isolation prestataires** dans OU dédiée     
+✅ **SWITCH L2 L3** sur ATHENA pour routagesur les reseaux et vlan departementaux  
 ✅ **DNS/DHCP** opérationnels sur ARESKI  
-✅ **GPO Admin Local DSI** configurée et liée  
+✅ **GPO Admin Local DSI** configurée et liée   
+✅ **GPO Block PanelI** configurée et liée  
+✅ **GPO Fond d'ecran**configuré et liée  
+✅ **GPO mot de passe**configuré et liée  
+✅ **GPO Powershell seecurity**configuré et liée    
+✅ **GPO Partage de fichier au Logon**configuré et liée              
+✅ **GPO Restriction hoiraire**configuré et liée  
 ✅ **2 DCs** (ARESKI + PROMETHEE) avec réplication  
 ✅ **RSAT** sur ARESG pour administration graphique  
+✅ **GLPI** sur DEBIANA pour administration du parc  
+✅ **IREDMAIL** sur HERA pour Messagerie   
+✅ **PFSENSE** sur HEPHAISTOS pour Firewall   
+✅ **FREEPBX** sur VOXA pour Telephonie softphone   
+✅ **WSUS** sur PROMETHEE pour administration mise a jour   
+✅ **VPN** sur ZEUS pour gestion serveur en WAN
+
 
 **État** : Infrastructure de base opérationnelle, prête pour les modules suivants (GPO avancées, messagerie, WSUS, VLAN dynamique).
 ## Arbre de l'infrastructure EcoTech
@@ -359,11 +381,18 @@ DOMAINE : ecotech.tssr
 │   └── OU=Prestataire → Nikos Papadopoulos (ni.papadopoulos) - UBIHard
 │
 ├── ORDINATEURS (OU=Ecotech_Computers)
-│   ├── ARESG (Windows Server 2022 GUI) - 10.10.20.14
-│   ├── ARESKI (Windows Server 2022 Core) - 10.10.20.4 - DC1
-│   ├── PROMETHEE (Windows Server 2022 Core) - 10.10.20.7 - DC2 (en cours)
-│   ├── CLIWIN01 (Windows 10/11)
-│   └── CLIWIN02 (Windows 10/11)
+│   ├── ARESG (Wins Server 2022 GUI)10.10.20.14
+│   ├── ARESKI (Win Server 2022 Core)10.10.20.4-DC1
+│   ├── PROMETHEE (WinServer 2022 Core)10.10.20.7-DC2 
+│   ├── APOLLON (Windows 10/11)   
+│   ├── HERA (Windows 10/11)
+│   │── VOXA (Windows 10/11)  
+│   │── VOXA (Windows 10/11)
+│   ├── ATHENA (Windows 10/11)
+│   ├── APOLLONIA (Windows 10/11)
+│   │── ATHENA (Windows 10/11)│
+│   └── APOLLONIA (Windows 10/11)
+│   │── DEBIANA2 (Windows 10/11)
 │
 ├── GROUPES (OU=Ecotech_Groups)
 │   ├── Groupes métier par OU (grp.[Service].[niveau])
