@@ -1,3 +1,5 @@
+
+![](schemareseau.png)
 # EcoTech Solutions 
 
 ## Vue d'ensemble
@@ -301,13 +303,24 @@ if ([string]::IsNullOrWhiteSpace($prenom) -or $prenom.Length -lt 2) {
 
 ---
 
-## 11. Architecture réseau (rappel)
-
+## 11. Architecture réseau option CORE 
+j
+Mon infra est virtualisé sur mon host avec comme hyperviseur 2 virtual box
+j'ai 32 giga de Ram
+Pour que je puisse travailler tranquillement tous mes services , j'ai opté pour la solution 1 vm 1 service .
+De plus j'opte pour une majorité de vm en core  et la possibilité de les configurer en ssh ou en graphique avec une vm graphique qui n'aura pour role que de les administrer .( ou depuis mon host avec redirection de port)
+j'ai aussi crééé la configuration pour pouvoir administrer toutes mes vm depuis l'exterieurs 
+-mes deux serveurs controleurs de domaine ADDS
+-mon routeur ATHENA
+-GLPI
+-FreePBX
+j'ai reussi a faire tourner en meme temps 10 vm .
+ma solution 
 ### Périmètres
 - **WAN** : Internet (192.168.1.0/24)
 - **DMZ BYZANCE** : 172.16.30.0/28 (Debian bastion, web externe)
 - **LAN ATHENES** : 10.10.0.0/28 (routeur ATHENA)
-- **ACROPOLE** : 10.10.20.0/26 (serveurs ARESKI, HERA, HERMES)
+- **ACROPOLE** : 10.10.20.0/26 (serveurs ARESKI, HERA, ARESG PROMETHEE VOXA DEBIANA APOLLONIA APOLLON)
 - **VLAN HERCULE** : 10.15.x.0/24 (9 VLANs départements)
 
 ### Mapping VLAN → Services

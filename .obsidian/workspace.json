@@ -11,12 +11,14 @@
             "id": "5ca919151120ab65",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ECOTECH.pdf"
+                "file": "Infrastructure ADDS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "ECOTECH"
+              "icon": "lucide-file",
+              "title": "Infrastructure ADDS"
             }
           }
         ]
@@ -183,8 +185,12 @@
   },
   "active": "5ca919151120ab65",
   "lastOpenFiles": [
-    "Drawing 2026-01-26 17.17.54.excalidraw.md",
+    "schemareseau.png",
     "Infrastructure ADDS.md",
+    "SERVICES/Drawing 2026-01-26 17.17.54.excalidraw.png",
+    "SERVICES/Drawing 2026-01-26 17.17.544.excalidraw.png",
+    "Drawing 2026-01-26 17.17.54.excalidraw.md",
+    "ECOTECH.pdf",
     "README.md",
     "DOCUMENTS TEMPORAIRES/Architecture réseau EcoTech Solutions.md",
     "DOCUMENTS TEMPORAIRES/openvpn sur pfsense..md",
@@ -202,10 +208,6 @@
     "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260225114914.png",
     "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260225114700.png",
     "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260224184006.png",
-    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260224174549.png",
-    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260224172633.png",
-    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260224172626.png",
-    "ECOTECH.pdf",
     "SERVICES/GLPI/GLPI.md",
     "SERVICES/VOIP@/install Freepbx.md",
     "SERVICES/GLPI/Ressources",
@@ -225,7 +227,6 @@
     "SERVICES/OPENVPN@/configuration d'une liaison vpn.md",
     "SERVICES/OPENVPN@/ressource",
     "SERVICES/IREDMAIL@/RESSOURCES/Useful resources for iRedMail administrator.md",
-    "SERVICES/IREDMAIL@/RESSOURCES/ECOTECH_iRedMail_HERA_3installation.md",
     "SERVICES/IREDMAIL@/RESSOURCES",
     "SERVICES/IREDMAIL@/architecture_iredmail.html",
     "SERVICES/IREDMAIL/~$il_username.docx"
