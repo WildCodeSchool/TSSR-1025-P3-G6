@@ -11,12 +11,12 @@
             "id": "5ca919151120ab65",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "SERVICES/PARE FEU HEPHAISTOS/VirtualBox_SPARTAKAPFSENSEreglelan2decochee.png"
+                "file": "ECOTECH.pdf"
               },
-              "icon": "lucide-image",
-              "title": "VirtualBox_SPARTAKAPFSENSEreglelan2decochee"
+              "icon": "lucide-file-text",
+              "title": "ECOTECH"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "5ca919151120ab65",
   "lastOpenFiles": [
+    "SERVICES/PARE FEU HEPHAISTOS/VirtualBox_SPARTAKAPFSENSEreglelan2decochee.png",
     "SERVICES/PARE FEU HEPHAISTOS/VirtualBox_SPARTAKAPFSENSEreglelan2.png",
     "SERVICES/PARE FEU HEPHAISTOS/VirtualBox_SPARTAKAPFSENSEreglelan.png",
     "SERVICES/PARE FEU HEPHAISTOS/VirtualBox_SPARTAKAPFSENSEALIASLAN.png",
@@ -195,7 +196,6 @@
     "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_config1 .png",
     "SERVICES/PARE FEU HEPHAISTOS/INSTALL GUIDE/INSTALL.md",
     "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_HEPHAISTOS GUIDE.md",
-    "SERVICES/PARE FEU HEPHAISTOS/RESSOURCES/PFSENSE_configgateway 1 .png",
     "SERVICES/PARE FEU HEPHAISTOS/openvpn sur pfsense..md",
     "SERVICES/PARE FEU HEPHAISTOS/INSTALL GUIDE",
     "SERVICES/PARE FEU HEPHAISTOS/RESSOURCES",
