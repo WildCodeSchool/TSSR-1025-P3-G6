@@ -1,11 +1,4 @@
 
-date_capture: 2026-02-14T11:30:46+01:00
----
-
-# You said  est ce que dans l'onglet dmz on peyt me...
-
-## 📝 Énoncé & Ressources
-est ce que dans l'onglet dmz on peyt mettre des regels qui arrivent vers ma dmz ou est ce que l'on y place des regles qui en partent et qui y arrivent,
 
 ---
 
@@ -41,9 +34,3 @@ Dans votre capture, les règles présentes traitent du trafic initié **par** le
 
 **Note importante :** Si vous souhaitez qu'un utilisateur externe accède à votre DMZ, vérifiez vos onglets **WAN** ou **LAN** selon la provenance souhaitée.
 
-Souhaitez-vous que j'analyse une règle spécifique de votre liste pour vérifier si elle est restrictive ou permissive ?
-```
-
----
-## 💡 Ma Solution / Notes
-> [!TIP] Insérez votre analyse ou vos corrections ici.ontent}}

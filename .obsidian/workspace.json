@@ -11,12 +11,12 @@
             "id": "5ca919151120ab65",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260226125343.png"
+                "file": "ECOTECH.pdf"
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260226125343"
+              "icon": "lucide-file-text",
+              "title": "ECOTECH"
             }
           }
         ]
@@ -181,21 +181,32 @@
       "bases:Create new base": false
     }
   },
-  "active": "66c539beb5668024",
+  "active": "5ca919151120ab65",
   "lastOpenFiles": [
+    "Drawing 2026-01-26 17.17.54.excalidraw.md",
+    "Infrastructure ADDS.md",
     "README.md",
-    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260226125343.png",
+    "DOCUMENTS TEMPORAIRES/Architecture réseau EcoTech Solutions.md",
+    "DOCUMENTS TEMPORAIRES/openvpn sur pfsense..md",
+    "DOCUMENTS TEMPORAIRES/OPENVPN BOX ORANGE dns.md",
+    "DOCUMENTS TEMPORAIRES/regles pfsense dmz AR.md",
+    "SERVICES/PARE FEU HEPHAISTOS/openvpn sur pfsense..md",
+    "DOCUMENTS TEMPORAIRES/recap rapide pour creer une gpo.md",
+    "DOCUMENTS TEMPORAIRES/p3-sprint-1-annexe-2-entreprise-2-EcoTechSolutions.md",
+    "DOCUMENTS TEMPORAIRES/ecotechchatgpt.md",
+    "DOCUMENTS TEMPORAIRES/Drawing 2026-01-26 17.17.54.excalidraw 1.png",
+    "SERVICES/ADDS/NEWDISK8PROMETHEE/partage Z dans Promethee.md",
+    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260219121258.png",
+    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260225135731.png",
+    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260225133047.png",
+    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260225114914.png",
+    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260225114700.png",
+    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260224184006.png",
+    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260224174549.png",
+    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260224172633.png",
+    "SERVICES/IREDMAIL@/RESSOURCES/Pasted image 20260224172626.png",
     "ECOTECH.pdf",
-    "SERVICES/VIRTUALBOX/7vms ensemble .png",
-    "SERVICES/VIRTUALBOX/reglage virtual box VLAN Hercule.png",
-    "SERVICES/GLPI/Ressources/InterfaceGLPI3LDAP1.png",
     "SERVICES/GLPI/GLPI.md",
-    "SERVICES/GLPI/Ressources/InterfaceGLPI3LDAP5.png",
-    "SERVICES/GLPI/Ressources/InterfaceGLPI3LDAP4.png",
-    "SERVICES/GLPI/Ressources/InterfaceGLPI3LDAP3.png",
-    "SERVICES/GLPI/Ressources/InterfaceGLPI3LDAP2.png",
-    "SERVICES/GLPI/Ressources/MriadbACTIVE2m.png",
-    "SERVICES/GLPI/Ressources/MriadbACTIVE2installé proprem.png",
     "SERVICES/VOIP@/install Freepbx.md",
     "SERVICES/GLPI/Ressources",
     "SERVICES/IREDMAIL@/etat et install.md",
@@ -207,7 +218,6 @@
     "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr/ressource",
     "SERVICES/ADDS/DNS/DNS@.md",
     "SERVICES/VOIP@/ressources",
-    "Infrastructure ADDS.md",
     "SERVICES/ADDS/USERS/ressource/commandes RSAT.md",
     "SERVICES/ADDS/USERS/ressource/commande ADDS demo.md",
     "SERVICES/ADDS/WinRM connection.md",
@@ -216,17 +226,8 @@
     "SERVICES/OPENVPN@/ressource",
     "SERVICES/IREDMAIL@/RESSOURCES/Useful resources for iRedMail administrator.md",
     "SERVICES/IREDMAIL@/RESSOURCES/ECOTECH_iRedMail_HERA_3installation.md",
-    "SERVICES/IREDMAIL@/RESSOURCES/Details of this iRedMail installation.md",
-    "SERVICES/IREDMAIL@/RESSOURCES/## How to configure your mail client applications (MUA).md",
     "SERVICES/IREDMAIL@/RESSOURCES",
-    "SERVICES/IREDMAIL@/RESSOURCES/ECOTECH_iRedMail_HERA_installation.md",
-    "SERVICES/IREDMAIL@/RESSOURCES/ECOTECH_iRedMail_HERA_buginstallation.md",
     "SERVICES/IREDMAIL@/architecture_iredmail.html",
-    "SERVICES/IREDMAIL/~$il_username.docx",
-    "SERVICES/ADDS/GPO/PARTAGE FICHIER AU LOGON.md",
-    "SERVICES/ADDS/GPO/RESTRICTION HORAIRE/Restrictions d'horaires de connexion.md",
-    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/GPO local admin.md",
-    "SERVICES/ADDS/GPO/RESTRICTION HORAIRE/Restriction d'horaire.md",
-    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/recap_GPO_AdminLocal.md"
+    "SERVICES/IREDMAIL/~$il_username.docx"
   ]
 }

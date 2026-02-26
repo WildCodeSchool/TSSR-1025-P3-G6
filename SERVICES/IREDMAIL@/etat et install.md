@@ -80,19 +80,19 @@ sudo bash iRedMail.sh
 ```
 
 
-![](../../Pasted%20image%2020260223151601.png)
+![](RESSOURCES/Pasted%20image%2020260223151601.png)
 
-![](../../Pasted%20image%2020260223152430.png)![](../../Pasted%20image%2020260223152602.png)
+![](RESSOURCES/Pasted%20image%2020260223152430.png)![](RESSOURCES/Pasted%20image%2020260223152602.png)
 
-![](../../Pasted%20image%2020260223152914.png)![](../../Pasted%20image%2020260223153043.png)
+![](RESSOURCES/Pasted%20image%2020260223152914.png)![](RESSOURCES/Pasted%20image%2020260223153043.png)
 
-![](../../Pasted%20image%2020260223154019.png)
+![](RESSOURCES/Pasted%20image%2020260223154019.png)
 
 Azerty1*2025
 
-![](../../Pasted%20image%2020260223154107.png)
+![](RESSOURCES/Pasted%20image%2020260223154107.png)
 
-![](../../Pasted%20image%2020260223154414.png)
+![](RESSOURCES/Pasted%20image%2020260223154414.png)
 
 
 l'install se lance 
@@ -218,7 +218,7 @@ Pour l'instant en lab interne, les clients mail (Thunderbird) et HERA sont sur l
   
   redemarrage et verif des services 
   
- ![](../../Pasted%20image%2020260223165527.png)![](../../Pasted%20image%2020260224144621.png) 
+ ![](RESSOURCES/Pasted%20image%2020260223165527.png)![](RESSOURCES/Pasted%20image%2020260224144621.png) 
 
 ---
 # APARTE SUR LE PROBLEME D'INCOMPATIBILIITE DE DEBIAN 13 ET DOVECOT
@@ -297,9 +297,9 @@ https://hera.ecotech.tssr/mail/
 Login : `postmaster@ecotech.tssr`  
 Password : `Azerty1*2025`
 
-![](../../Pasted%20image%2020260224172633.png)
+![](RESSOURCES/Pasted%20image%2020260224172633.png)
 
-![](../../Pasted%20image%2020260224174549.png)
+![](RESSOURCES/Pasted%20image%2020260224174549.png)
 
 
 ---
@@ -309,7 +309,7 @@ Dans ADDS
 creation d'une OU de compte de services "services accounts"
 creation d'un user "compte de service AD" svc.iredmail
 
-![](../../Pasted%20image%2020260224184006.png)
+![](RESSOURCES/Pasted%20image%2020260224184006.png)
 
 si probleme pour relier le LDAP : 
 
@@ -322,14 +322,14 @@ sudo apt install ldap-utils -y
 
 ```
 
-![](../../Pasted%20image%2020260225114914.png)
+![](RESSOURCES/Pasted%20image%2020260225114914.png)
 
-![](../../Pasted%20image%2020260225114700.png)
+![](RESSOURCES/Pasted%20image%2020260225114700.png)
 
-![](../../Pasted%20image%2020260225133047.png)
+![](RESSOURCES/Pasted%20image%2020260225133047.png)
 
 
-![](../../Pasted%20image%2020260225135731.png)![](RESSOURCES/mailrecu.png)
+![](RESSOURCES/Pasted%20image%2020260225135731.png)![](RESSOURCES/mailrecu.png)
 
 
 maintenant création des boites mails pour tout le monde et good...

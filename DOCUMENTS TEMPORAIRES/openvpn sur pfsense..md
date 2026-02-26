@@ -1,12 +1,4 @@
 
-date_capture: 2026-02-14T11:31:59+01:00
----
-
-# You said  config openvpn sur pfsense.
-
-## 📝 Énoncé & Ressources
-config openvpn sur pfsense.
-
 ---
 
 Markdown

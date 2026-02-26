@@ -8,7 +8,7 @@ installation de glpi sur lvdata ( on installera iredmail sur lv data 2)
 
 
 ![](Ressources/etat_dskdebiana.png)
-![](../../Pasted%20image%2020260219121258.png)![](Ressources/formatlv1ext4.png)
+![](../IREDMAIL@/RESSOURCES/Pasted%20image%2020260219121258.png)![](Ressources/formatlv1ext4.png)
  Creation du point de montage dans un dossier "glpi" dans /var/www/  repertoire standart pour les serveurs web :
 ```
  sudo mkdir -p /var/www/glpi
