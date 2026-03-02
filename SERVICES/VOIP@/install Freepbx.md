@@ -1,3 +1,5 @@
+
+
 ## Installation
 
 Au démarrage de la VM, dans la liste, choisir la version **recommandée**.  
@@ -66,3 +68,18 @@ System Locale: LANG=fr_FR.UTF-8
 ``
 
 ![](ressources/install_ok%20.png)![](ressources/sshconnectionroot.png)
+
+si vous etes en user standart et que au demarrage , les interfaces reseaux sont eteintes alors passez en root pour allumer les interfaces avec 
+
+```
+ifup eth<nbre>
+verifier le up avec ip a 
+```
+
+![](FREEPBX%20page%20cli.png)
+
+on se connecte sur son adresse ip 
+ici 10.10.20.12. et on arrive sur l'interface graphique 
+on passe sur user Guide .
+merci
+![](freepbx%20page%20admin2.png)

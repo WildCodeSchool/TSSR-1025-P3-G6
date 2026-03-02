@@ -6,18 +6,45 @@
       {
         "id": "4a0021b5a2b3e58d",
         "type": "tabs",
+        "dimension": 77.06117021276596,
         "children": [
           {
             "id": "5ca919151120ab65",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ECOTECH.pdf"
+                "file": "SERVICES/VOIP@/install Freepbx.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "ECOTECH"
-            }
+              "icon": "lucide-file",
+              "title": "install Freepbx"
+            },
+            "group": "24a76a38089c960d"
+          }
+        ]
+      },
+      {
+        "id": "b865739ccb447b94",
+        "type": "tabs",
+        "dimension": 22.93882978723404,
+        "children": [
+          {
+            "id": "3a94da4a35a7dc72",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SERVICES/VOIP@/install Freepbx.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Plan de install Freepbx"
+            },
+            "group": "24a76a38089c960d"
           }
         ]
       }
@@ -172,37 +199,45 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Créer une nouvelle base": false,
       "switcher:Ouvrir le sélecteur rapide": false,
       "graph:Ouvrir la vue graphique": false,
       "canvas:Créer une nouvelle toile": false,
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false,
-      "bases:Create new base": false
+      "command-palette:Ouvrir la palette de commandes": false
     }
   },
   "active": "5ca919151120ab65",
   "lastOpenFiles": [
-    "SERVICES/PARE FEU HEPHAISTOS/VirtualBox_SPARTAKAPFSENSEreglelan2decochee.png",
-    "SERVICES/PARE FEU HEPHAISTOS/VirtualBox_SPARTAKAPFSENSEreglelan2.png",
-    "SERVICES/PARE FEU HEPHAISTOS/VirtualBox_SPARTAKAPFSENSEreglelan.png",
-    "SERVICES/PARE FEU HEPHAISTOS/VirtualBox_SPARTAKAPFSENSEALIASLAN.png",
-    "SERVICES/PARE FEU HEPHAISTOS/VirtualBox_SPARTAKAPFSENSEALIAS PORT.png",
-    "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_config6 .png",
-    "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_config4 .png",
-    "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_config4.png",
-    "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_config3 .png",
-    "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_config2 .png",
-    "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_config1 .png",
+    "SERVICES/VOIP@/USER GUIDE.md",
+    "SERVICES/VOIP@/install Freepbx.md",
+    "DNSmessagerie.png",
+    "SERVICES/VOIP@/FREEPBX page cli.png",
+    "SERVICES/VOIP@/freepbx page admin2.png",
+    "SERVICES/VOIP@/freepbx page admin1.png",
+    "SERVICES/IREDMAIL@/USER GUIDE.md",
+    "SERVICES/IREDMAIL@/etat et install.md",
+    "SERVICES/IREDMAIL@/RESSOURCES/reglageautoIMAPSMTP.png",
+    "Pasted image 20260302112452.png",
+    "Pasted image 20260302112309.png",
+    "Pasted image 20260302111804.png",
+    "SERVICES/IREDMAIL@/RESSOURCES/ok2thunderrecoiepng.png",
+    "SERVICES/IREDMAIL@/RESSOURCES/okthunderenvoiepng.png",
+    "ECOTECH.pdf",
+    "SERVICES/ADDS/Infrastructure ADDS.md",
+    "SERVICES/IREDMAIL@/RESSOURCES/##iRedMail installation.md",
+    "Sans titre.base",
+    "SERVICES/GLPI/USER GUIDE.md",
+    "SERVICES/GLPI/INSTALL GLPI.md",
+    "SERVICES/GLPI/USER GUIDE",
     "SERVICES/PARE FEU HEPHAISTOS/INSTALL GUIDE/INSTALL.md",
     "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_HEPHAISTOS GUIDE.md",
     "SERVICES/PARE FEU HEPHAISTOS/openvpn sur pfsense..md",
     "SERVICES/PARE FEU HEPHAISTOS/INSTALL GUIDE",
     "SERVICES/PARE FEU HEPHAISTOS/RESSOURCES",
-    "Infrastructure ADDS.md",
     "README.md",
     "Drawing 2026-01-26 17.17.54.excalidraw.md",
-    "ECOTECH.pdf",
     "DOCUMENTS TEMPORAIRES/Architecture réseau EcoTech Solutions.md",
     "DOCUMENTS TEMPORAIRES/openvpn sur pfsense..md",
     "DOCUMENTS TEMPORAIRES/OPENVPN BOX ORANGE dns.md",
@@ -212,22 +247,13 @@
     "DOCUMENTS TEMPORAIRES/ecotechchatgpt.md",
     "SERVICES/ADDS/NEWDISK8PROMETHEE/partage Z dans Promethee.md",
     "SERVICES/GLPI/GLPI.md",
-    "SERVICES/VOIP@/install Freepbx.md",
     "SERVICES/GLPI/Ressources",
-    "SERVICES/IREDMAIL@/etat et install.md",
     "SERVICES/IREDMAIL@/RESSOURCES/iRedMailfonctionnement.md",
     "SERVICES/ADDS/DHCP@/DHCP.md",
     "SERVICES/ADDS/DHCP@/RESSOURCES",
     "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr/Infrastructure ADDS.md",
-    "SERVICES/ADDS/RECAPITULATIF ADDS_DHCP_DNS.md",
     "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr/ressource",
-    "SERVICES/ADDS/DNS/DNS@.md",
     "SERVICES/VOIP@/ressources",
-    "SERVICES/ADDS/USERS/ressource/commandes RSAT.md",
-    "SERVICES/ADDS/USERS/ressource/commande ADDS demo.md",
-    "SERVICES/ADDS/WinRM connection.md",
-    "SERVICES/ADDS/USERS/ressource",
-    "SERVICES/OPENVPN@/ressource",
-    "SERVICES/IREDMAIL@/RESSOURCES"
+    "SERVICES/ADDS/USERS/ressource"
   ]
 }

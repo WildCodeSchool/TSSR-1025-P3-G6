@@ -6,7 +6,7 @@ Deux cartes reseau sur virtual box
 
  on installera iredmail sur lv data 2 
  ![](RESSOURCES/etat_dskdebiana%201.png)
- 
+ v
  
 # partition principal
 

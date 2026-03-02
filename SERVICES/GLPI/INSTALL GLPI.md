@@ -1,15 +1,16 @@
-Installation de GLPI sur une debian 13 gui
-commande faite depuis host en ssh sur port 34000 
-Deux cartes reseau sur virtual box 
-1 en nat avec redirection de port 
+# Installation de GLPI sur une debian 13 gui  
+Commande faite depuis host en ssh sur port 34000   
+Deux cartes reseau sur virtual box   
+1 en nat avec redirection de port   
 1 en reseau interen sur reseau ACROPOLE  avec ip fixe en 10.10.20.10
 
-installation de glpi sur lvdata ( on installera iredmail sur lv data 2)
+installation de glpi sur lvdata 
 
 
 ![](Ressources/etat_dskdebiana.png)
 ![](../IREDMAIL@/RESSOURCES/Pasted%20image%2020260219121258.png)![](Ressources/formatlv1ext4.png)
- Creation du point de montage dans un dossier "glpi" dans /var/www/  repertoire standart pour les serveurs web :
+
+# Creation du point de montage dans un dossier "glpi" dans /var/www/  repertoire standart pour les serveurs web :
 ```
  sudo mkdir -p /var/www/glpi
 ```
@@ -55,7 +56,7 @@ sudo apt install apache2 mariadb-server php php-mysql php-xml php-curl php-gd ph
 
 ```
 
-on secure mariadb comme dans la quete
+# Application de commande secure pour mariadb (effacement de la base test et des utilisateurs test) 
 
 ```
 wilder@DEBIANA:~$ sudo mariadb -e "ALTER USER 'root'@'localhost' IDENTIFIED BY 'Azerty1*';"
@@ -63,9 +64,6 @@ wilder@DEBIANA:~$ sudo mariadb -e "ALTER USER 'root'@'localhost' IDENTIFIED BY '
 
 ```
 wilder@DEBIANA:~$ sudo mariadb -u root -pAzerty1* -e "DELETE FROM mysql.user WHERE User='';"
-```
-```
-
 ```
 
 
@@ -77,7 +75,7 @@ sudo mariadb -u root -pAzerty1* -e "DELETE FROM mysql.user WHERE User='root' AND
 sudo mariadb -u root -pAzerty1* -e "FLUSH PRIVILEGES;"
 ```
 
-creation de la bdd "glpi" sur mariadb 
+# creation de la bdd "glpi" sur mariadb 
 
 On crée maintenant la base de données et l'utilisateur dédié GLPI :
 
@@ -95,13 +93,13 @@ sudo mariadb -u root -pAzerty1* -e "CREATE DATABASE glpi CHARACTER SET utf8mb4 C
 - **CHARACTER SET utf8mb4** : encodage Unicode complet, supporte tous les caractères y compris les emojis (utf8 classique est limité à 3 octets, utf8mb4 va jusqu'à 4 octets)
 - **COLLATE utf8mb4_unicode_ci** : règles de tri et comparaison des chaînes, `ci` = case insensitive (pas de différence majuscules/minuscules dans les recherches)
 
-creation de l'utilisateur 'glpi'
+# creation de l'utilisateur 'glpi'
 
 ```
 sudo mariadb -u root -pAzerty1* -e "CREATE USER 'glpi'@'localhost' IDENTIFIED BY 'Azerty1*';"
 ```
 
-et on lui colle tous les droits 
+# on lui affecte le role de super administartor  
 
 ```
 sudo mariadb -u root -pAzerty1* -e "GRANT ALL PRIVILEGES ON glpi.* TO 'glpi'@'localhost';"
@@ -111,13 +109,6 @@ sudo mariadb -u root -pAzerty1* -e "GRANT ALL PRIVILEGES ON glpi.* TO 'glpi'@'lo
 sudo mariadb -u root -pAzerty1* -e "FLUSH PRIVILEGES;"
 
 ```
-
-
-Elle recharge la table des privilèges MariaDB en mémoire. Sans ça, les droits accordés avec `GRANT` ne sont pas pris en compte immédiatement.
-
-comment savoir et comprendre ca tout seul . quel logique faut il avoir
-
-La logique à avoir :
 
 **1. Comprendre que MariaDB charge ses configs en RAM au démarrage** Quand tu modifies des privilèges, tu modifies des tables SQL (`mysql.user`, `mysql.db`). MariaDB a déjà chargé ces tables en mémoire → il ne relit pas automatiquement ce que tu viens d'écrire. `FLUSH PRIVILEGES` force cette relecture.
 
@@ -275,24 +266,3 @@ Do you want to continue? [Yes/no]Yes
 > Installation done.
 
 
-on se connecte en gui avec l'adresse glpi.ecotech.tssr
-
-![](Ressources/InterfaceGLPI1.png)![](Ressources/InterfaceGLPI1.png)![](Ressources/InterfaceGLPI2.png)![](Ressources/InterfaceGLPI3french.png)
-
-Imports des utilisateurs et jonction avec la base ADDS
-
-installer les utilitaires ldap
-
-```
-sudo apt install ldap-utils -y
-```
-
-commande pour trouver un user dans la base ldap ici ke.yamamoto 
-pour tester l'annuaire ldap
-```
-ldapsearch -x -H ldap://10.10.20.4 -D "CN=Administrator,CN=Users,DC=ecotech,DC=tssr" -w "Azerty1*" -b "DC=ecotech,DC=tssr" "(sAMAccountName=ke.yamamoto)"
-```
-ca fonctionne de mon coté
-
-voyons maintenant comment lie la base ldap a glpi 
-![](Ressources/InterfaceGLPI3LDAP1.png)![](Ressources/InterfaceGLPI3LDAP2.png)![](Ressources/InterfaceGLPI3LDAP3.png)![](Ressources/InterfaceGLPI3LDAP4.png)![](Ressources/InterfaceGLPI3LDAP5.png)
