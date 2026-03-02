@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SERVICES/VOIP@/USER GUIDE.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "USER GUIDE"
+              "title": "README"
             },
             "group": "24a76a38089c960d"
           }
@@ -36,13 +36,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SERVICES/VOIP@/USER GUIDE.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de USER GUIDE"
+              "title": "Plan de README"
             },
             "group": "24a76a38089c960d"
           }
@@ -210,20 +210,19 @@
   },
   "active": "5ca919151120ab65",
   "lastOpenFiles": [
+    "SERVICES/VOIP@/USER GUIDE.md",
     "SERVICES/VOIP@/ressources/miseajour.png",
     "SERVICES/VOIP@/ressources/Activationok.png",
     "SERVICES/VOIP@/ressources/mdpma.zhang.png",
     "SERVICES/VOIP@/ressources/Activation.png",
     "SERVICES/VOIP@/ressources/PANNEAU_config_ok.png",
     "SERVICES/VOIP@/ressources/perte de mdp root ( en qwerty).md",
-    "SERVICES/VOIP@/USER GUIDE.md",
     "SERVICES/VOIP@/install Freepbx.md",
     "SERVICES/VOIP@/ressources/PANNEAU_config_1.png",
     "SERVICES/VOIP@/ressources/FREEPBX page cli.png",
     "SERVICES/VOIP@/ressources/freepbx page admin.png",
     "SERVICES/VOIP@/ressources/freepbx page admin3.png",
     "SERVICES/VOIP@/ressources/freepbx page admin2.png",
-    "SERVICES/VOIP@/ressources/freepbx page admin1.png",
     "SERVICES/IREDMAIL@/USER GUIDE.md",
     "SERVICES/IREDMAIL@/etat et install.md",
     "ECOTECH.pdf",
