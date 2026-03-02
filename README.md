@@ -1,7 +1,11 @@
 # TSSR-1025-P3-G6
+<<<<<<< HEAD
 
 pour faire un conflit
 
+=======
+pour quete 
+>>>>>>> 0d5bba9b420308884abf17178e9b4e07b49a8f24
 Ce dépôt Github retrace la mise en place de la migration de l'infrastructure informatique de la société Ecotech.
 Ce dépôt est organisé comme suit :
 - Fichier READ ME
