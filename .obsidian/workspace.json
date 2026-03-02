@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SERVICES/VOIP@/install Freepbx.md",
+                "file": "SERVICES/VOIP@/USER GUIDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "install Freepbx"
+              "title": "USER GUIDE"
             },
             "group": "24a76a38089c960d"
           }
@@ -36,13 +36,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SERVICES/VOIP@/install Freepbx.md",
+                "file": "SERVICES/VOIP@/USER GUIDE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de install Freepbx"
+              "title": "Plan de USER GUIDE"
             },
             "group": "24a76a38089c960d"
           }
@@ -210,20 +210,22 @@
   },
   "active": "5ca919151120ab65",
   "lastOpenFiles": [
+    "SERVICES/VOIP@/ressources/miseajour.png",
+    "SERVICES/VOIP@/ressources/Activationok.png",
+    "SERVICES/VOIP@/ressources/mdpma.zhang.png",
+    "SERVICES/VOIP@/ressources/Activation.png",
+    "SERVICES/VOIP@/ressources/PANNEAU_config_ok.png",
+    "SERVICES/VOIP@/ressources/perte de mdp root ( en qwerty).md",
     "SERVICES/VOIP@/USER GUIDE.md",
     "SERVICES/VOIP@/install Freepbx.md",
-    "DNSmessagerie.png",
-    "SERVICES/VOIP@/FREEPBX page cli.png",
-    "SERVICES/VOIP@/freepbx page admin2.png",
-    "SERVICES/VOIP@/freepbx page admin1.png",
+    "SERVICES/VOIP@/ressources/PANNEAU_config_1.png",
+    "SERVICES/VOIP@/ressources/FREEPBX page cli.png",
+    "SERVICES/VOIP@/ressources/freepbx page admin.png",
+    "SERVICES/VOIP@/ressources/freepbx page admin3.png",
+    "SERVICES/VOIP@/ressources/freepbx page admin2.png",
+    "SERVICES/VOIP@/ressources/freepbx page admin1.png",
     "SERVICES/IREDMAIL@/USER GUIDE.md",
     "SERVICES/IREDMAIL@/etat et install.md",
-    "SERVICES/IREDMAIL@/RESSOURCES/reglageautoIMAPSMTP.png",
-    "Pasted image 20260302112452.png",
-    "Pasted image 20260302112309.png",
-    "Pasted image 20260302111804.png",
-    "SERVICES/IREDMAIL@/RESSOURCES/ok2thunderrecoiepng.png",
-    "SERVICES/IREDMAIL@/RESSOURCES/okthunderenvoiepng.png",
     "ECOTECH.pdf",
     "SERVICES/ADDS/Infrastructure ADDS.md",
     "SERVICES/IREDMAIL@/RESSOURCES/##iRedMail installation.md",
@@ -251,7 +253,6 @@
     "SERVICES/IREDMAIL@/RESSOURCES/iRedMailfonctionnement.md",
     "SERVICES/ADDS/DHCP@/DHCP.md",
     "SERVICES/ADDS/DHCP@/RESSOURCES",
-    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr/Infrastructure ADDS.md",
     "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr/ressource",
     "SERVICES/VOIP@/ressources",
     "SERVICES/ADDS/USERS/ressource"

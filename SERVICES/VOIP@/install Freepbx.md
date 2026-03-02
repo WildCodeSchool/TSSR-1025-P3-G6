@@ -76,10 +76,10 @@ ifup eth<nbre>
 verifier le up avec ip a 
 ```
 
-![](FREEPBX%20page%20cli.png)
+![](ressources/FREEPBX%20page%20cli.png)
 
 on se connecte sur son adresse ip 
 ici 10.10.20.12. et on arrive sur l'interface graphique 
 on passe sur user Guide .
 merci
-![](freepbx%20page%20admin2.png)
+![](ressources/freepbx%20page%20admin2.png)
