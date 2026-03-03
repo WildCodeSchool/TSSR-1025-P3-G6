@@ -19,4 +19,4 @@ Resolve-DnsName -Type SRV _ldap._tcp.dc._msdcs.ecotech.tssr
 ```
 
 ---
-![](DNSDOMAINE%20ECOTECH.png)![](DNSDOMAINE%20ECOTECH2.png)![](DNSDOMAINE%20ECOTECH3.png)![](DNSforwardersECOTECH3.png)
+![](ressources/DNSDOMAINE%20ECOTECH.png)![](ressources/DNSDOMAINE%20ECOTECH2.png)![](ressources/DNSDOMAINE%20ECOTECH3.png)![](ressources/DNSforwardersECOTECH3.png)

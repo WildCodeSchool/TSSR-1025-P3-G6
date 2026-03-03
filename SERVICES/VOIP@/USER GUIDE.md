@@ -1,25 +1,50 @@
 ![](ressources/freepbx%20page%20admin1.png)
 
-si vous perdez la main pdt la config essaye en CLI , il se peut que le firewall se soit activeé
+si vous perdez la main pdt la config essaye en CLI , il se peut que le firewall se soit activé
 
 ```
 fwconsole firewall stop
 ```
 
-Abort le firewall et nous arrivons sur le panneau de config
+**Abort le firewall** et nous arrivons sur le panneau de config
 
 ![](ressources/PANNEAU_config_1.png)![](ressources/PANNEAU_config_ok.png)
 
 
-dans Admin/system Admin on peut activer freepbx pour récuperer le trial de 15 jours 
+dans Admin/system Admin on peut activer freepbx pour récuperer **le trial de 15 jours** 
 
 
 
 ![](ressources/Activation.png)![](ressources/Activationok.png)
 
 
-maintenant faisons la mise a jour :
+maintenant faisons **la mise a jour :**
 
 
 ![](ressources/miseajour.png)
+
+et encore quelque mise a jour
+
+![](ressources/majsuite.png)
+
+maintenant ajoutons des **postes SIP** 
+rendez vous dans **Applications /postes**
+
+![](ressources/OngletExtensionsdans%20aplications%20(postes).png)![](ressources/ajout_de_nouveaux_poste_SIP.png)![](ressources/ajout_de_nouveaux_poste_SIP.png)![](ressources/5ajout_de_nouveaux_poste_SIP.png)
+
+
+## Installation du logiciel SIP sur les postes clients
+
+
+## pour ubuntu
+
+```
+sudo apt install linphone-desktop
+```
+
+## pour windows
+
+```
+https://3cxphone.software.informer.com/download/#downloading
+```
 

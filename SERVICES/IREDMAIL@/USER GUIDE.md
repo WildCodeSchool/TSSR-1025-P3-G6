@@ -44,7 +44,7 @@ preferez le port 587 pour starttls sur  SMTP
 
 ![](RESSOURCES/reglageautoIMAPSMTP.png)
 
-![](../../DNSmessagerie.png)
+![](DNSmessagerie.png)
 
 on verifie avec nslookup que le le dns delivre bien le sercice mail sur la bonne adresse IP , ici la vm HERA  sur 10.10.20.11
 
