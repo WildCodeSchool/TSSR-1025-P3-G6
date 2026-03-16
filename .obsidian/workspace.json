@@ -6,45 +6,18 @@
       {
         "id": "4a0021b5a2b3e58d",
         "type": "tabs",
-        "dimension": 77.06117021276596,
         "children": [
           {
-            "id": "5ca919151120ab65",
+            "id": "d21293025a7ce744",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "SERVICES/VOIP@/Install SIP/Installation du logiciel SIP sur les postes clients.md",
-                "mode": "source",
-                "source": false
+                "file": "SERVICES/WSUS/Ressources/Pasted image 20260312210904.png"
               },
-              "icon": "lucide-file",
-              "title": "Installation du logiciel SIP sur les postes clients"
-            },
-            "group": "24a76a38089c960d"
-          }
-        ]
-      },
-      {
-        "id": "b865739ccb447b94",
-        "type": "tabs",
-        "dimension": 22.93882978723404,
-        "children": [
-          {
-            "id": "3a94da4a35a7dc72",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "SERVICES/VOIP@/Install SIP/Installation du logiciel SIP sur les postes clients.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Plan de Installation du logiciel SIP sur les postes clients"
-            },
-            "group": "24a76a38089c960d"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260312210904"
+            }
           }
         ]
       }
@@ -103,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.5
+    "width": 500.5
   },
   "right": {
     "id": "0672b2c90c28cb5a",
@@ -208,53 +181,52 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "5ca919151120ab65",
+  "active": "66c539beb5668024",
   "lastOpenFiles": [
-    "SERVICES/VOIP@/ressources/APPELOk.png",
-    "SERVICES/VOIP@/ressources/config_sipphone _windlumorel.png",
-    "SERVICES/VOIP@/ressources/config_sipphone _windMazhang.png",
-    "SERVICES/VOIP@/ressources/confimazhangsipphone.png",
-    "SERVICES/VOIP@/Install SIP/Installation du logiciel SIP sur les postes clients.md",
-    "SERVICES/VOIP@/ressources/config_sipphone _wind.png",
-    "SERVICES/VOIP@/ressources/Pageacceuil3CX.png",
-    "SERVICES/VOIP@/ressources/Pageacceuillinphone.png",
-    "SERVICES/VOIP@/install FREEPBX.md",
-    "ECOTECH.pdf",
+    "SERVICES/WSUS/Ressources/Pasted image 20260312210831.png",
+    "SERVICES/WSUS/Ressources/Pasted image 20260312210904.png",
+    "SERVICES/CONNEXION/SSH.md",
+    "SERVICES/CONNEXION/configuration d'une liaison vpn.md",
+    "SERVICES/ADDS/WinRM connection.md",
+    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/NTP.md",
+    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/ressource/nobelate.png",
+    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/ressource/TIMEOK.png",
+    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/Infrastructure ADDS.md",
+    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/ressource/NTPmaitre-du-temps2.png",
+    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/ressource/NTPmaitre-du-tempsreglepfsense.png",
+    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/ressource/NTPmaitre-du-temps.png",
+    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/ressource/MaitreFSMO.png",
     "SERVICES/VOIP@/USER GUIDE.md",
-    "SERVICES/VOIP@/Install SIP",
-    "SERVICES/VOIP@/ressources/5ajout_de_nouveaux_poste_SIP.png",
-    "SERVICES/VOIP@/ressources/Ligne_ma_zhang.png",
-    "SERVICES/ADDS/PROMETHEE partage DC ecotech.tssr/partageZ_6dossiers png.png",
-    "SERVICES/VOIP@/ressources/OngletExtensionsdans aplications (postes).png",
+    "SERVICES/VOIP@/install FREEPBX.md",
+    "SERVICES/VOIP@/config OVH galere.md",
+    "SERVICES/VOIP@/Install SIP/Installation du logiciel SIP sur les postes clients.md",
+    "SERVICES/VOIP@/lien vers un compte sip ovh.md",
+    "SERVICES/VOIP@/ressources/Activation.png",
+    "SERVICES/VOIP@/ressources/A4.png",
     "SERVICES/VOIP@/ressources/perte de mdp root ( en qwerty).md",
     "INFRASTRUCTURE.md",
+    "SERVICES/WSUS/INSTALL GUIDE.md",
+    "SERVICES/GLPI/INSTALL GLPI.md",
+    "SERVICES/GLPI/USER GUIDE.md",
+    "SERVICES/WSUS/User Guide.md",
+    "SERVICES/WSUS/Ressources",
+    "SERVICES/Sans titre",
+    "SERVICES/ADDS/DHCP@/DHCP.md",
+    "SERVICES/SWITCH L2L3 ATHENA/Config-FW02.md",
+    "ECOTECH.pdf",
+    "SERVICES/VOIP@/Install SIP",
     "SERVICES/ADDS/USERS/Utilisateurs.md",
     "SERVICES/ADDS/USERS/ressource/commandes RSAT.md",
     "SERVICES/ADDS/USERS/ressource/commande ADDS demo.md",
     "SERVICES/ADDS/RECAPITULATIF ADDS_DHCP_DNS.md",
-    "SERVICES/ADDS/WinRM connection.md",
     "SERVICES/ADDS/OU/ressources",
     "SERVICES/ADDS/objectifs manager/ressources",
     "SERVICES/ADDS/NEWDISK8PROMETHEE/Ressources/partage Z dans Promethee.md",
     "SERVICES/ADDS/NEWDISK8PROMETHEE/Ressources",
     "SERVICES/ADDS/GROUPE/ressources",
     "SERVICES/ADDS/DNS/DNS@.md",
-    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr/Infrastructure ADDS.md",
     "SERVICES/ADDS/DNS/ressources",
     "README.md",
-    "Sans titre.base",
-    "SERVICES/IREDMAIL@/USER GUIDE.md",
-    "SERVICES/IREDMAIL@/etat et install.md",
-    "SERVICES/IREDMAIL@/RESSOURCES/##iRedMail installation.md",
-    "SERVICES/GLPI/USER GUIDE.md",
-    "SERVICES/GLPI/INSTALL GLPI.md",
-    "SERVICES/GLPI/USER GUIDE",
-    "SERVICES/PARE FEU HEPHAISTOS/INSTALL GUIDE/INSTALL.md",
-    "SERVICES/PARE FEU HEPHAISTOS/PFSENSE_HEPHAISTOS GUIDE.md",
-    "SERVICES/PARE FEU HEPHAISTOS/openvpn sur pfsense..md",
-    "SERVICES/PARE FEU HEPHAISTOS/INSTALL GUIDE",
-    "Drawing 2026-01-26 17.17.54.excalidraw.md",
-    "DOCUMENTS TEMPORAIRES/Architecture réseau EcoTech Solutions.md",
-    "DOCUMENTS TEMPORAIRES/openvpn sur pfsense..md"
+    "Sans titre.base"
   ]
 }

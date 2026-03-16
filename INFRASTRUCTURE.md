@@ -126,10 +126,17 @@ Resolve-DnsName -Type SRV _ldap._tcp.dc._msdcs.ecotech.tssr
 
 ### Scopes configurés sur ARESKI
 
-| Scope | Réseau | Plage | Durée bail |
-|-------|--------|-------|------------|
-| ACROPOLE | 10.10.20.0/26 | 10.10.20.1 - 10.10.20.60 | 8 jours |
-| VLAN 10 | 10.15.10.0/24 | 10.15.10.1 - 10.15.10.254 | 8 jours |
+| Scope    | Réseau        | Plage                     | Durée bail |
+| -------- | ------------- | ------------------------- | ---------- |
+| ACROPOLE | 10.10.20.0/26 | 10.10.20.1 - 10.10.20.60  | 8 jours    |
+| VLAN 10  | 10.15.10.0/24 | 10.15.10.1 - 10.15.10.254 | 8 jours    |
+| VLAN 20  | 10.15.20.0/24 | 10.15.20.1 - 10.15.20.254 | 8 jours    |
+| VLAN 30  | 10.15.30.0/24 | 10.15.30.1 - 10.15.30.254 | 8 jours    |
+| VLAN 40  | 10.15.40.0/24 | 10.15.40.1 - 10.15.40.254 | 8 jours    |
+| VLAN 50  | 10.15.50.0/24 | 10.15.50.1 - 10.15.50.254 | 8 jours    |
+| VLAN 60  | 10.15.60.0/24 | 10.15.60.1 - 10.15.60.254 | 8 jours    |
+| VLAN 70  | 10.15.70.0/24 | 10.15.70.1 - 10.15.70.254 | 8 jours    |
+| VLAN 80  | 10.15.80.0/24 | 10.15.80.1 - 10.15.80.254 | 8 jours    |
 
 ### Vérification
 ```powershell
@@ -292,7 +299,7 @@ Pour l'instant , c'est a la personne qui se connecte de s'inserer dans un vlan e
 ✅ **GPO Powershell seecurity**configuré et liée    
 ✅ **GPO Partage de fichier au Logon**configuré et liée              
 ✅ **GPO Restriction hoiraire**configuré et liée  
-✅ **2 DCs** (ARESKI + PROMETHEE) avec réplication  
+✅ **3 DCs** (ARESKI + PROMETHEE+ HERAKLES) avec réplication  
 ✅ **RSAT** sur ARESG pour administration graphique  
 ✅ **GLPI** sur DEBIANA pour administration du parc  
 ✅ **IREDMAIL** sur HERA pour Messagerie   
@@ -300,6 +307,7 @@ Pour l'instant , c'est a la personne qui se connecte de s'inserer dans un vlan e
 ✅ **FREEPBX** sur VOXA pour Telephonie softphone   
 ✅ **WSUS** sur PROMETHEE pour administration mise a jour   
 ✅ **VPN** sur ZEUS pour gestion serveur en WAN
+✅ **VPN** sur ROCK ( windows serveur dans vmware sur debian connecté en reseau 4G ) v pour               gestion serveur windows en WAN
 
 
 **État** : Infrastructure de base opérationnelle, prête pour les modules suivants (GPO avancées, messagerie, WSUS, VLAN dynamique).

@@ -2,12 +2,11 @@
 
 ## Installation
 
-Au démarrage de la VM, dans la liste, choisir la version **recommandée**.  
+Au démarrage de la VM, dans la liste, choisir la version **recommandée**. 
 
 ![image de choix de version](https://github.com/WildCodeSchool/TSSR_Resources/blob/main/Ressources_quetes/freePBX-01.png?raw=true)
 
 Puis sélectionner `Graphical Installation - Output to VGA`.  
-
 ![Choix de l'installation graphique](https://github.com/WildCodeSchool/TSSR_Resources/blob/main/Ressources_quetes/freePBX-02.png?raw=true)
 
 Enfin choisir `FreePBX Standard`  
@@ -15,7 +14,7 @@ Enfin choisir `FreePBX Standard`
 ![Choix de l'installation standard](https://github.com/WildCodeSchool/TSSR_Resources/blob/main/Ressources_quetes/freePBX-03.png?raw=true)
 
 Pendant l'installation, il faut configurer le mot de passe root (`Root password is not set` s'affiche).  
-
+![](ressources/A4.png)
 ![Alerte du mot de passe root à changer](https://github.com/WildCodeSchool/TSSR_Resources/blob/main/Ressources_quetes/freePBX-04.png?raw=true)
 
 Clique sur `ROOT PASSWORD` et entre un mot de passe (robuste, est-il besoin de le préciser ?) pour le compte root.
@@ -34,7 +33,7 @@ L'installation continue et se termine.
 
 Éteindre la VM, enlever l'ISO du lecteur et redémarrer la VM.  
 
-![prompt](https://github.com/WildCodeSchool/TSSR_Resources/blob/main/Ressources_quetes/freePBX-08.png?raw=true)Connecte toi en root.
+![prompt|294](https://github.com/WildCodeSchool/TSSR_Resources/blob/main/Ressources_quetes/freePBX-08.png?raw=true)Connecte toi en root.
 
 ### [](https://odyssey.wildcodeschool.com/quests/2790/pages/10087#modification-de-la-langue-du-clavier)Modification de la langue du clavier
 
@@ -83,3 +82,5 @@ ici 10.10.20.12. et on arrive sur l'interface graphique
 on passe sur user Guide .
 merci
 ![](ressources/freepbx%20page%20admin2.png)
+
+

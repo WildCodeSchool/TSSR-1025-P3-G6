@@ -33,18 +33,17 @@ rendez vous dans **Applications /postes**
 ![](ressources/OngletExtensionsdans%20aplications%20(postes).png)![](ressources/ajout_de_nouveaux_poste_SIP.png)![](ressources/ajout_de_nouveaux_poste_SIP.png)![](ressources/5ajout_de_nouveaux_poste_SIP.png)
 
 
-## Installation du logiciel SIP sur les postes clients
+Apres avoir installer les terminaux sip dans vos vm, lancer un appel .
+## A vous de parler 
+![](ressources/APPELOk.png)![](ressources/appelwinubu.png)![](ressources/APPELUBUNTUWIN4.png)
 
 
-## pour ubuntu
+# Renvoi d'appel
 
-```
-sudo apt install linphone-desktop
-```
+dans Aplications / Suivez moi 
+Active le poste que vous voulez renvoyer .![](ressources/Renvoi1.png)
 
-## pour windows
+pour le initial ring time 
+![](ressources/Renvoi2.png)
 
-```
-https://3cxphone.software.informer.com/download/#downloading
-```
-
+a la fin n'oubliez pas de cliquer sur "envoyer" sinons vos réglages ne seront pas pris en compte .
