@@ -16,4 +16,4 @@ Administrators local de chaque machine =
 
 Dès qu'une nouvelle machine rejoint le domaine et reçoit la GPO, les techniciens DSI sont **automatiquement** admins locaux dessus, sans intervention manuelle.
 **Résumé en une phrase :**
-Cette GPO permet de gérer les droits d'administration locale de toutes les machines **depuis un seul endroit** (le DC), plutôt que machine par machine.![](Gpo_admin_localaddgroup.png)![](Gpo_admin_localaddgroup2.png)![](Gpo_admin_localliaisona_l_OU.png)
+Cette GPO permet de gérer les droits d'administration locale de toutes les machines **depuis un seul endroit** (le DC), plutôt que machine par machine.![](ressources/Gpo_admin_localaddgroup.png)![](ressources/Gpo_admin_localaddgroup2.png)![](ressources/Gpo_admin_localliaisona_l_OU.png)

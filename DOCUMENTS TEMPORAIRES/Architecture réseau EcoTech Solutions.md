@@ -63,15 +63,16 @@ Règles de sortie LAN (Source LAN → Destination externe) :
 
 **Serveurs applicatifs :**
 
-- **HERA1** : FreePBX Distro VOIP - 10.10.20.x/26
-- **HERA2** : Debian 13 - GLPI/Messagerie - 10.10.20.x/26
+- VOXA : FreePBX Distro VOIP - 10.10.20.x/26
+- **HERA** : Debian 13 - GLPI/Messagerie - 10.10.20.x/26
 - **APOLLONIA** : Ubuntu - Admin pfSense - 10.10.20.x/26
 
 **Infrastructure domaine :** **Domaine AD :** ecotech.tssr
 
-- **HARESKI** : Windows Server 2022 CORE - AD DS/DNS/DHCP/WSUS - 10.10.20.4/26 (DC primaire)
-- **HARESG** : Windows Server 2022 GUI - RSAT AD DS/DNS/DHCP/WSUS - 10.10.20.x/26 (DC secondaire)
-- **PROMETHEE** : Windows Server 2022 CORE - AD DS/DNS/DHCP/WSUS - 10.10.20.x/26 (DC tertiaire)
+- **HARESKI** : DC PRIMAIRE / MAITRE FSMO/ Windows Server 2022 CORE - **ADDS/DNS/DHCP/NTP**  - 10.10.20.4/26 (DC primaire)
+- **HARESG** : Windows Server 2022 GUI - **RSAT AD DS/DNS/DHCP/WSUS** - 10.10.20.x/26 (DC secondaire)
+- **PROMETHEE** : Windows Server 2022 CORE - **AD DS/DNS/DHCP** - 10.10.20.x/26 (DC tertiaire)
+- **HERAKLES**  Windows Server 2022 CORE **WSUS**
 
 **Infrastructure client  :** 
 

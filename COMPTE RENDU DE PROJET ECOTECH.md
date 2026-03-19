@@ -1,3 +1,12 @@
+# Schema de l'infrastructure ecotech initial 
+
+
+![](DOCUMENTS%20TEMPORAIRES/Diagramme%20reseausimple%20.png)
+
+
+
+# Schema de l'infrastructure ecotech actuel
+
 
 ![](DOCUMENTS%20TEMPORAIRES/schemareseau.png)
 # EcoTech Solutions 
@@ -18,23 +27,23 @@ j'ai **32 giga** de Ram en tout.
 Pour que je puisse travailler  tous mes services , j'ai opté pour la solution 1 vm=1 service .
 De plus j'opte pour une majorité de vm en **core** **  et la possibilité de les configurer en ssh ou en graphique avec une vm graphique qui n'aura pour rôle que de les administrer .( ou depuis mon host avec redirection de port).
 j'ai aussi créé la configuration pour pouvoir administrer toutes mes vm depuis l'exterieur avec le vpn de Pfsense.
-## mes CORES:
--mes deux serveurs controleurs de domaine ADDS
--mon routeur ATHENA
--GLPI
--FreePBX
+## VM  CORES:
+-mes 3 serveurs controleurs de domaine ADDS : ARESKI PROMETHEE et HERAKLES
+-mon switch L2 L3 ATHENA avec radius pour aiguillage user vers vlan départementaux.
+-GLPI debian core
+-FreePBX debian core
+-iredmail debian core
 Ces  machines ne consomment **que** 5 giga max de ram et me laisse de la marge pour mes VM en GUI .
 ### Périmètres
 - **WAN** : Internet (192.168.1.0/24)
 - **DMZ BYZANCE** : 172.16.30.0/28 (Debian bastion, web externe)
 - **LAN ATHENES** : 10.10.0.0/28 (routeur ATHENA)
-- **ACROPOLE** : 10.10.20.0/26 (serveurs ARESKI, HERA, ARESG PROMETHEE VOXA DEBIANA APOLLONIA APOLLON)
+- **ACROPOLE** : 10.10.20.0/26 (serveurs ARESKI, HERA, ARESG PROMETHEE VOXA DEBIANA APOLLONIA APOLLON HADES HERAKLES)
 - **VLAN HERCULE** : 10.15.x.0/24 (9 VLANs départements) en attente d'une methode d'atribution de vlan .
+  J'ai commence une methode automatique d'atribution d'adresse ip dans vlan par departement avec un aiguillage effectue par Radius installe sur ATHENA et interrogation de la base LDAP au logon de l'utilisateur
+# Structure Active Directory
 
-
-## 1. Structure Active Directory
-
-### OUs (Organizational Units)
+### 1. OUs (Organizational Units)
 
 ```
 ecotech.tssr
@@ -73,7 +82,7 @@ ecotech.tssr
 - **Niveau usr** (users) : 9 groupes
 - **Niveau trv** (transverse) : 9 groupes
 
-### Méta-groupes pour simplifier la gestion
+### groupes pour simplifier la gestion et pour gpo 
 - **grp.ALL.managers** : contient tous les *.mgr
 - **grp.ALL.users** : contient tous les *.usr
 
@@ -148,7 +157,7 @@ Get-DhcpServerv4Statistics
 
 ## 6. GPO (Group Policy Objects)
 
-### GPO Admin Local DSI
+#### 6.1GPO Admin Local DSI
 
 **Objectif** : Rendre les groupes DSI administrateurs locaux sur toutes les machines clientes
 
@@ -175,7 +184,7 @@ Get-LocalGroupMember -SID "S-1-5-32-544"
 
 ---
 
-## 7. Infrastructure serveurs
+## 7. Infrastructure serveurs ADDS
 
 ### ARESKI (DC principal)
 - **OS** : Windows Server 2022 Core
@@ -197,6 +206,12 @@ Get-LocalGroupMember -SID "S-1-5-32-544"
   - `dnsmgmt.msc` (DNS Manager)
   - `dhcpmgmt.msc` (DHCP Manager)
   - `gpmc.msc` (Group Policy Management)
+    
+### HERAKLES (DC secondaire)
+- **OS** : Windows Server 2022 Core
+- **Rôles** : WSUS
+- **Réseau** : ACROPOLE
+- **Réplication** : Avec ARESKI
 
 ---
 
@@ -343,15 +358,14 @@ DOMAINE : ecotech.tssr
 │   ├── ARESG (Wins Server 2022 GUI)10.10.20.14
 │   ├── ARESKI (Win Server 2022 Core)10.10.20.4-DC1
 │   ├── PROMETHEE (WinServer 2022 Core)10.10.20.7-DC2 
+	├── HERAKLES (WinServer 2022 Core)10.10.20.12-DC2 
 │   ├── APOLLON (Windows 10/11)   
 │   ├── HERA (Windows 10/11)
-│   │── VOXA (Windows 10/11)  
-│   │── VOXA (Windows 10/11)
-│   ├── ATHENA (Windows 10/11)
-│   ├── APOLLONIA (Windows 10/11)
-│   │── ATHENA (Windows 10/11)│
-│   └── APOLLONIA (Windows 10/11)
-│   │── DEBIANA2 (Windows 10/11)
+│   │── VOXA (DEBIAN)  
+│   │── HERA (DEBIAN
+│   ├── ATHENA (DEBIAN
+│   ├── APOLLONIA (UBUNTU)
+│   │── DEBIANA2 (DEIAN)
 │
 ├── GROUPES (OU=Ecotech_Groups)
 │   ├── Groupes métier par OU (grp.[Service].[niveau])

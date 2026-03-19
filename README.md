@@ -1,14 +1,6 @@
 # TSSR-1025-P3-G6
-<<<<<<< HEAD
 
-
-
-=======
-
->>>>>>> 
->>>>>>> 
->>>>>>> 0d5bba9b420308884abf17178e9b4e07b49a8f24
-
+[https://github.com/WildCodeSchool/TSSR-1025-P3-G6]()
 
 Ce dépôt Github retrace la mise en place de la migration de l'infrastructure informatique de la société Ecotech.
 Ce dépôt est organisé comme suit :

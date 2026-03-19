@@ -11,12 +11,14 @@
             "id": "d21293025a7ce744",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "SERVICES/WSUS/Ressources/Pasted image 20260312210904.png"
+                "file": "COMPTE RENDU DE PROJET ECOTECH.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260312210904"
+              "icon": "lucide-file",
+              "title": "COMPTE RENDU DE PROJET ECOTECH"
             }
           }
         ]
@@ -76,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 500.5
+    "width": 458.5
   },
   "right": {
     "id": "0672b2c90c28cb5a",
@@ -181,52 +183,52 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "66c539beb5668024",
+  "active": "d21293025a7ce744",
   "lastOpenFiles": [
-    "SERVICES/WSUS/Ressources/Pasted image 20260312210831.png",
-    "SERVICES/WSUS/Ressources/Pasted image 20260312210904.png",
+    "README.md",
+    "Sans titre.base",
+    "SERVICES/GLPI/USER GUIDE.md",
+    "SERVICES/ADDS/GPO/GPO FOND ECRAN WALLPAPER/creation_GPO3.png",
+    "COMPTE RENDU DE PROJET ECOTECH.md",
+    "ECOTECH presentation slide.pdf",
+    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/recap_GPO_AdminLocal.md",
+    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/GPO local admin.md",
+    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/ressources/Gpo_admin_local1.png",
+    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/ressources",
+    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/ressources/GPOdomainlacaladmin2.png",
+    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/ressources/GPOdomainlacaladmin.png",
+    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/ressources/Gpo_admin_localliaisona_l_OU.png",
+    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/ressources/Gpo_admin_localaddgroup2.png",
+    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/ressources/Gpo_admin_localaddgroup.png",
+    "().md",
+    "DOCUMENTS TEMPORAIRES/Diagramme reseausimple .png",
+    "DOCUMENTS TEMPORAIRES/schemareseau.png",
+    "DOCUMENTS TEMPORAIRES/regles pfsense dmz AR.md",
+    "DOCUMENTS TEMPORAIRES/recap rapide pour creer une gpo.md",
+    "DOCUMENTS TEMPORAIRES/openvpn sur pfsense..md",
+    "DOCUMENTS TEMPORAIRES/OPENVPN BOX ORANGE dns.md",
+    "DOCUMENTS TEMPORAIRES/Drawing 2026-01-26 17.17.54.excalidraw 1.png",
+    "DOCUMENTS TEMPORAIRES/p3-sprint-1-annexe-2-entreprise-2-EcoTechSolutions.md",
+    "DOCUMENTS TEMPORAIRES/ecotechchatgpt.md",
+    "SERVICES/IREDMAIL@/USER GUIDE.md",
+    "SERVICES/IREDMAIL@/etat et install.md",
     "SERVICES/CONNEXION/SSH.md",
     "SERVICES/CONNEXION/configuration d'une liaison vpn.md",
+    "SERVICES/GLPI/INSTALL GLPI.md",
+    "DOCUMENTS TEMPORAIRES/Architecture réseau EcoTech Solutions.md",
     "SERVICES/ADDS/WinRM connection.md",
     "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/NTP.md",
-    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/ressource/nobelate.png",
-    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/ressource/TIMEOK.png",
     "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/Infrastructure ADDS.md",
-    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/ressource/NTPmaitre-du-temps2.png",
-    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/ressource/NTPmaitre-du-tempsreglepfsense.png",
-    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/ressource/NTPmaitre-du-temps.png",
-    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/ressource/MaitreFSMO.png",
     "SERVICES/VOIP@/USER GUIDE.md",
     "SERVICES/VOIP@/install FREEPBX.md",
     "SERVICES/VOIP@/config OVH galere.md",
     "SERVICES/VOIP@/Install SIP/Installation du logiciel SIP sur les postes clients.md",
-    "SERVICES/VOIP@/lien vers un compte sip ovh.md",
-    "SERVICES/VOIP@/ressources/Activation.png",
-    "SERVICES/VOIP@/ressources/A4.png",
-    "SERVICES/VOIP@/ressources/perte de mdp root ( en qwerty).md",
-    "INFRASTRUCTURE.md",
-    "SERVICES/WSUS/INSTALL GUIDE.md",
-    "SERVICES/GLPI/INSTALL GLPI.md",
-    "SERVICES/GLPI/USER GUIDE.md",
-    "SERVICES/WSUS/User Guide.md",
     "SERVICES/WSUS/Ressources",
     "SERVICES/Sans titre",
-    "SERVICES/ADDS/DHCP@/DHCP.md",
-    "SERVICES/SWITCH L2L3 ATHENA/Config-FW02.md",
-    "ECOTECH.pdf",
     "SERVICES/VOIP@/Install SIP",
-    "SERVICES/ADDS/USERS/Utilisateurs.md",
-    "SERVICES/ADDS/USERS/ressource/commandes RSAT.md",
-    "SERVICES/ADDS/USERS/ressource/commande ADDS demo.md",
-    "SERVICES/ADDS/RECAPITULATIF ADDS_DHCP_DNS.md",
     "SERVICES/ADDS/OU/ressources",
     "SERVICES/ADDS/objectifs manager/ressources",
-    "SERVICES/ADDS/NEWDISK8PROMETHEE/Ressources/partage Z dans Promethee.md",
     "SERVICES/ADDS/NEWDISK8PROMETHEE/Ressources",
-    "SERVICES/ADDS/GROUPE/ressources",
-    "SERVICES/ADDS/DNS/DNS@.md",
-    "SERVICES/ADDS/DNS/ressources",
-    "README.md",
-    "Sans titre.base"
+    "SERVICES/ADDS/GROUPE/ressources"
   ]
 }

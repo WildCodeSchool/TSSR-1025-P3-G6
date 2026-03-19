@@ -1,0 +1,11 @@
+views:
+  - type: table
+    name: Tableau
+  - type: cards
+    name: Vue
+    rowHeight: medium
+  - type: table
+    name: GPO
+    filters:
+      and:
+        - file.name == "*gpo*"
