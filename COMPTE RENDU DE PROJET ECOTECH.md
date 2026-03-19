@@ -157,33 +157,6 @@ Get-DhcpServerv4Statistics
 
 ## 6. GPO (Group Policy Objects)
 
-#### 6.1GPO Admin Local DSI
-
-**Objectif** : Rendre les groupes DSI administrateurs locaux sur toutes les machines clientes
-
-**Configuration** :
-- Nom : `grp.ou.dsi.adminlocal.computer`
-- Liée à : **Ecotech_Computers**
-- Chemin : `Computer Configuration → Policies → Windows Settings → Security Settings → Restricted Groups`
-
-**Restricted Groups - Administrators** :
-- ecotech\Domain Admins
-- ecotech\grp.DSI.mgr
-- ecotech\grp.DSI.usr
-
-**Application** :
-```powershell
-# Sur la machine cliente
-gpupdate /force
-Restart-Computer
-
-# Vérifier
-gpresult /scope:computer /r
-Get-LocalGroupMember -SID "S-1-5-32-544"
-```
-
----
-
 ## 7. Infrastructure serveurs ADDS
 
 ### ARESKI (DC principal)
@@ -306,7 +279,7 @@ Pour l'instant , c'est a la personne qui se connecte de s'inserer dans un vlan e
 ✅ **251 utilisateurs** créés automatiquement via script PowerShell  
 ✅ **Isolation prestataires** dans OU dédiée     
 ✅ **SWITCH L2 L3** sur ATHENA pour routagesur les reseaux et vlan departementaux  
-✅ **DNS/DHCP** opérationnels sur ARESKI  
+✅ **DNS/DHCP/NTP** opérationnels sur ARESKI  
 ✅ **GPO Admin Local DSI** configurée et liée   
 ✅ **GPO Block PanelI** configurée et liée  
 ✅ **GPO Fond d'ecran**configuré et liée  
@@ -322,10 +295,11 @@ Pour l'instant , c'est a la personne qui se connecte de s'inserer dans un vlan e
 ✅ **FREEPBX** sur VOXA pour Telephonie softphone   
 ✅ **WSUS** sur PROMETHEE pour administration mise a jour   
 ✅ **VPN** sur ZEUS pour gestion serveur en WAN
-✅ **VPN** sur ROCK ( windows serveur dans vmware sur debian connecté en reseau 4G ) v pour               gestion serveur windows en WAN
+✅ **VPN** sur ROCK ( windows serveur dans vmware sur debian connecté en reseau 4G )  pour               gestion serveur windows en WAN
 
+Resultat :
 
-**État** : Infrastructure de base opérationnelle, prête pour les modules suivants (GPO avancées, messagerie, WSUS, VLAN dynamique).
+# **État** : Infrastructure de base opérationnelle
 ## Arbre de l'infrastructure EcoTech
 
 ```
@@ -358,14 +332,16 @@ DOMAINE : ecotech.tssr
 │   ├── ARESG (Wins Server 2022 GUI)10.10.20.14
 │   ├── ARESKI (Win Server 2022 Core)10.10.20.4-DC1
 │   ├── PROMETHEE (WinServer 2022 Core)10.10.20.7-DC2 
-	├── HERAKLES (WinServer 2022 Core)10.10.20.12-DC2 
-│   ├── APOLLON (Windows 10/11)   
-│   ├── HERA (Windows 10/11)
-│   │── VOXA (DEBIAN)  
-│   │── HERA (DEBIAN
-│   ├── ATHENA (DEBIAN
-│   ├── APOLLONIA (UBUNTU)
-│   │── DEBIANA2 (DEIAN)
+│ 	├── HERAKLES (WinServer 2022 Core)10.10.20.12-DC2 
+├	├── HEPHAISTOS (DEBIAN )PARE FEU PFSENSE
+│   ├── APOLLON (Windows 10/11) client  
+│ 	├── HADES (Windows 10/11)   client
+│   ├── HERA (Debian) client
+│   │── VOXA (DEBIAN)  asterisk
+│   │── HERA (DEBIAN) messagerie
+│   ├── ATHENA (DEBIAN L2/L3
+│   ├── APOLLONIA (UBUNTU) gestion GUI
+│   │── DEBIANA2 (DEIAN) glpi
 │
 ├── GROUPES (OU=Ecotech_Groups)
 │   ├── Groupes métier par OU (grp.[Service].[niveau])
