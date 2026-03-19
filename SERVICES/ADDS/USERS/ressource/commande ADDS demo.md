@@ -92,7 +92,7 @@ Ce sont deux choses différentes :
 
 **`Unlock-ADAccount`** agit sur l'attribut `lockoutTime` — il déverrouille un compte qui a été bloqué automatiquement après trop de tentatives de connexion échouées (GPO lockout).
 
-Un compte peut donc être **activé ET verrouillé en même temps** — c'est exactement ce qui s'est passé avec `ma.zhang` : compte actif, mais verrouillé par la GPO à cause des multiples tentatives d'auth échouées cette nuit.
+Un compte peut donc être **activé ET verrouillé en même temps** : compte actif, mais verrouillé par la GPO
 
 ---
 

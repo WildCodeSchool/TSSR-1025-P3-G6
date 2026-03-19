@@ -96,7 +96,6 @@ Maintenant que la précision interne est validée, regardez la ligne **"Root Dis
 * Si elle est inférieure à **0.1s**, votre serveur est considéré comme une source de temps "Saine" pour tout le reste du domaine.
 
 ### Quelle est la suite pour ARESKI ?
-Votre socle de base (DNS, AD DS, NTP via pfSense) est désormais **parfaitement configuré**.
+le socle de base (DNS, AD DS, NTP via pfSense) est désormais **parfaitement configuré**.
 
-Comme vous avez déjà installé le rôle **NPS (RADIUS)**, la prochaine étape logique est de préparer l'authentification. 
-**Souhaitez-vous que je vous aide à créer le "Shared Secret" (Secret partagé) et à configurer votre premier client RADIUS en ligne de commande ?**
+

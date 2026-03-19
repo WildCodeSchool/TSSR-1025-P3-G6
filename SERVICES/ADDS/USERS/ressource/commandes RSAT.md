@@ -16,10 +16,10 @@ dhcpmgmt.msc
 gpmc.msc
 ```
 
-Toutes ces commandes s'exécutent sur **ARESG** et gèrent **ARESKI** à distance
+Toutes ces commandes s'exécutent sur **ARESG** et gèrent **nos 3 serveurs core** à distance
 
 
-pour attribuer un rsat a un serveur 
+Pour attribuer un rsat a un serveur :
 
 ```
 Install-WindowsFeature -Name GPMC,RSAT-AD-Tools -IncludeAllSubFeature

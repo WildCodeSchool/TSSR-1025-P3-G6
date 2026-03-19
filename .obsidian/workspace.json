@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMPTE RENDU DE PROJET ECOTECH.md",
+                "file": "SERVICES/ADDS/USERS/ressource/commandes RSAT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "COMPTE RENDU DE PROJET ECOTECH"
+              "title": "commandes RSAT"
             }
           }
         ]
@@ -185,29 +185,36 @@
   },
   "active": "d21293025a7ce744",
   "lastOpenFiles": [
+    "SERVICES/ADDS/USERS/ressource/commande ADDS demo.md",
+    "SERVICES/ADDS/USERS/ressource/commandes RSAT.md",
+    "SERVICES/ADDS/USERS/ressource/winRMARESGVERS toARESKI ADDS5.png",
+    "SERVICES/ADDS/USERS/ressource/Problem1.png",
+    "SERVICES/ADDS/PROMETHEE partage DC ecotech.tssr/partageZ_6dossiers png.png",
+    "SERVICES/ADDS/OU/ressources/MoveOU_dans_OUusres.png",
+    "SERVICES/ADDS/OU/ressources/Creation_OUs.png",
+    "SERVICES/ADDS/objectifs manager/ressources/YARA.TSAI_MANAGER_greatpetrovDSI.png",
+    "SERVICES/ADDS/objectifs manager/ressources/YARA.TSAI MANAGER FARIDBENSALHDSI.png",
+    "SERVICES/ADDS/objectifs manager/ressources/ADEL_BAKIRMANAGER_celiatouati_DIRECTION.png",
+    "SERVICES/ADDS/objectifs manager/ressources/ADEL_BAKIRMANAGER_Aminlevi_DIRECTION.png",
+    "SERVICES/ADDS/NEWDISK8PROMETHEE/partage Z dans Promethee.md",
+    "SERVICES/ADDS/NEWDISK8PROMETHEE/Ressources/DISK PARTAGES SERVEURS CNTENTdoits_des _groupes.png",
+    "SERVICES/ADDS/DNS/DNS@.md",
+    "SERVICES/ADDS/DHCP@/DHCP.md",
+    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/NTP.md",
+    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/Infrastructure ADDS.md",
+    "COMPTE RENDU DE PROJET ECOTECH.md",
     "README.md",
     "Sans titre.base",
     "SERVICES/GLPI/USER GUIDE.md",
-    "SERVICES/ADDS/GPO/GPO FOND ECRAN WALLPAPER/creation_GPO3.png",
-    "COMPTE RENDU DE PROJET ECOTECH.md",
     "ECOTECH presentation slide.pdf",
     "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/recap_GPO_AdminLocal.md",
     "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/GPO local admin.md",
-    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/ressources/Gpo_admin_local1.png",
     "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/ressources",
-    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/ressources/GPOdomainlacaladmin2.png",
-    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/ressources/GPOdomainlacaladmin.png",
-    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/ressources/Gpo_admin_localliaisona_l_OU.png",
-    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/ressources/Gpo_admin_localaddgroup2.png",
-    "SERVICES/ADDS/GPO/GPO LOCAL ADMIN/ressources/Gpo_admin_localaddgroup.png",
     "().md",
-    "DOCUMENTS TEMPORAIRES/Diagramme reseausimple .png",
-    "DOCUMENTS TEMPORAIRES/schemareseau.png",
     "DOCUMENTS TEMPORAIRES/regles pfsense dmz AR.md",
     "DOCUMENTS TEMPORAIRES/recap rapide pour creer une gpo.md",
     "DOCUMENTS TEMPORAIRES/openvpn sur pfsense..md",
     "DOCUMENTS TEMPORAIRES/OPENVPN BOX ORANGE dns.md",
-    "DOCUMENTS TEMPORAIRES/Drawing 2026-01-26 17.17.54.excalidraw 1.png",
     "DOCUMENTS TEMPORAIRES/p3-sprint-1-annexe-2-entreprise-2-EcoTechSolutions.md",
     "DOCUMENTS TEMPORAIRES/ecotechchatgpt.md",
     "SERVICES/IREDMAIL@/USER GUIDE.md",
@@ -216,19 +223,12 @@
     "SERVICES/CONNEXION/configuration d'une liaison vpn.md",
     "SERVICES/GLPI/INSTALL GLPI.md",
     "DOCUMENTS TEMPORAIRES/Architecture réseau EcoTech Solutions.md",
-    "SERVICES/ADDS/WinRM connection.md",
-    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/NTP.md",
-    "SERVICES/ADDS/ARESKI ARBRE  DC ecotech.tssr NTP Master/Infrastructure ADDS.md",
-    "SERVICES/VOIP@/USER GUIDE.md",
-    "SERVICES/VOIP@/install FREEPBX.md",
-    "SERVICES/VOIP@/config OVH galere.md",
-    "SERVICES/VOIP@/Install SIP/Installation du logiciel SIP sur les postes clients.md",
     "SERVICES/WSUS/Ressources",
     "SERVICES/Sans titre",
     "SERVICES/VOIP@/Install SIP",
     "SERVICES/ADDS/OU/ressources",
     "SERVICES/ADDS/objectifs manager/ressources",
     "SERVICES/ADDS/NEWDISK8PROMETHEE/Ressources",
-    "SERVICES/ADDS/GROUPE/ressources"
+    "SERVICES/ADDS/GROUPE pour GPO/ressources"
   ]
 }
